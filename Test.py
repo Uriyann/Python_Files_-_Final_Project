@@ -26,8 +26,8 @@ create_account(input("\tEnter Your Name: ").strip(), int(input("\n\tEnter Your I
 print(dep)
 
 
-# def denomination(amount):
-#     ans1 = amount // 1000
+# def denomination(amount):awdaw
+#     ans1 = amount // 1000awdwadwa
 #     num1 = amount % 1000
 
 #     ans2 = num1 // 500
