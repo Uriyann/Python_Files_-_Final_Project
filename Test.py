@@ -25,7 +25,8 @@ def create_account(name, deposit):
 create_account(input("\tEnter Your Name: ").strip(), int(input("\n\tEnter Your Initial Deposit: ")))
 print(dep)
 
-
+def naol():
+    print("Sana")
 # def denomination(amount):
 #     ans1 = amount // 1000
 #     num1 = amount % 1000
