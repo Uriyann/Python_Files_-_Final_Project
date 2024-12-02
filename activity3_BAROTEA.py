@@ -31,7 +31,7 @@ bsit = True
 
 print("\n\n\tPersonal Complete Bio Data:")
 
-print("\n\t\tHello "+f_name,m_name,l_name+"! You belong to the gender of "+gender+" and you are at the age of",
+print("\n\t\tHello "+f_name,m_name,l_name+"! You belong to the gender of "+gender+" and you are at the age of\b",
       age,". With your birthdate at "+birthdate_m,birthdate_d,birthdate_y,"and in the birthplace of "+
       birthplace+". You weight at an average of",weight,"kg, and with the height of",height,"cm. You are "+
       civ_stat+", belonging to the religion of "+rel+" with your citizenship of "+citi+" and you have known "+
