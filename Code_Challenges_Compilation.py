@@ -102,8 +102,6 @@ def cc6():
 
     fin_grade = (pre * 0.15) + (mid * 0.15) + (senal * 0.15) + (fin * 0.15) + (quiz * 0.25) + (proj * 0.15)
 
-    os.system('cls')
-
     print(f"\n\n\tHello {name}, Your Final Grade is: {fin_grade}")
 
     if fin_grade >= 100:
