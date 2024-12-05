@@ -2,17 +2,16 @@ import os
 
 def cc1():
 
-    os.system('cls')
-
-    print("\n\t\t\t\t\t\t\t\t\t\t\t\t\t* \n\t\t\t\t\t\t\t\t\t\t\t\t\t\b\b"
-            "* * * \n\t\t\t\t\t\t\t\t\t\t\t\t\t\b\b\b\b* * * * * "
-            "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\b\b\b\b\b\b* * * * * * * "
-            "\n\t\t\t\t\t\t\t\t\t\t\t\t\t\b\b\b\b* * * * * \n\t\t\t\t\t\t\t\t\t\t\t\t\t\b\b"
-            "* * * \n\t\t\t\t\t\t\t\t\t\t\t\t\t*")
+    print("\n\t\t\t\t\t\t\t\t\t\t\t\t\t"
+          "*\n\t\t\t\t\t\t\t\t\t\t\t\t\t\b\b"
+          "* * * \n\t\t\t\t\t\t\t\t\t\t\t\t\t\b\b\b\b"
+          "* * * * *\n\t\t\t\t\t\t\t\t\t\t\t\t\t\b\b\b\b\b\b"
+          "* * * * * * * \n\t\t\t\t\t\t\t\t\t\t\t\t\t\b\b\b\b"
+          "* * * * * \n\t\t\t\t\t\t\t\t\t\t\t\t\t\b\b"
+          "* * * \n\t\t\t\t\t\t\t\t\t\t\t\t\t"
+          "*")
     
 def cc2():
-
-    os.system('cls')
 
     name = input("\n\n\t\t\tPlease enter your name: ")
 
@@ -54,8 +53,6 @@ def cc3():
     email = input("\t\tEnter Your Email: ")
     bsit = True
 
-    os.system('cls')
-
     print("\n\n\tPersonal Complete Bio Data:")
 
     print("\n\t\tHello "+f_name,m_name,l_name+"! You belong to the gender of "+gender+" and you are at the age of\b",
@@ -67,12 +64,8 @@ def cc3():
 
 def cc4():
 
-    os.system('cls')
-
     num1 = eval(input("\n\n\t\t\t\t\b\bEnter a Number: "))
     num2 = eval(input("\t\t\t\t\b\bEnter Another Number: "))
-
-    os.system('cls')
 
     add = num1 + num2
     sub = num1 - num2
@@ -89,8 +82,6 @@ def cc4():
     
 def cc5():
 
-    os.system('cls')
-
     far = float(input("\n\n\tEnter the Rate of Temperature in Farehnheit: "))
 
     comp = (far - 32) * 5 / 9
@@ -98,8 +89,6 @@ def cc5():
     print(f"\n\tThe Degrees of Farehnheit {far} °F converted into Celcius is {round(comp, 2)} °C")
 
 def cc6():
-
-    os.system('cls')
 
     name = input("\n\n\tEnter Your Name: ")
 
@@ -125,8 +114,6 @@ def cc6():
         print("\tUnfortunately, You Are Failed.")
 
 def cc7():
-
-    os.system('cls')
 
     try:
 
@@ -185,8 +172,6 @@ def cc7():
 
 def cc8():
 
-    os.system('cls')
-
     sum = 0
 
     for i in range(10):
@@ -196,8 +181,6 @@ def cc8():
     print(f"\n\n\t\tThe sum of all numbers is: {sum}\n\n ")
 
 def cc9():
-
-    os.system('cls')
 
     for i in range(10, 0, -1):
         for j in range(1, 11 - i):
