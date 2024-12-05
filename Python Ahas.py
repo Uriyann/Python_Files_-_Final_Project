@@ -1,3 +1,5 @@
-from code_challenge16 import create_account
+from Code_Challenges_Compilation import (cc1, cc2, cc3)
 
-create_account()
+cc1()
+cc2()
+cc3()
