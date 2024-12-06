@@ -27,4 +27,6 @@ num8 = num7 % 1
 
 ans9 = num8 // 1
 
-print(f"\n\n\tHello! {name}, you have deposited the amount of: {deposit}.\n\n\t\t{ans1} - 1000\n\t\t{ans2} - 500\n\t\t{ans3} - 200\n\t\t{ans4} - 100\n\t\t{ans5} - 50\n\t\t{ans6} - 20\n\t\t{ans7} - 10\n\t\t{ans8} - 5\n\t\t{ans9} - 1\n\t\t")
+print(f"\n\n\tHello! {name}, you have deposited the amount of: {deposit}.\n\n\t\t{ans1} - 1000\n\t\t{ans2} - "
+      "500\n\t\t{ans3} - 200\n\t\t{ans4} - 100\n\t\t{ans5} - 50\n\t\t{ans6} - 20\n\t\t{ans7} - 10\n\t\t{ans8} "
+      "- 5\n\t\t{ans9} - 1\n\t\t")
