@@ -10,3 +10,5 @@ while True:
 
     print(compute)
     print()
+
+#this program will determin the cryptograph
