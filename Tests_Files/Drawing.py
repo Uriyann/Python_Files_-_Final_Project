@@ -20,3 +20,5 @@ for i in range(60000):  # Reduced for testing
     color("red")
 
 done()
+
+"""A Drawing Project With A Friend Whom She Had An Intrested In Turtle Module"""
