@@ -1,5 +1,3 @@
-import os
-
 def cc1():
 
     print("\n\t\t\t\t\t\t\t\t\t\t\t\t\t"
@@ -149,15 +147,22 @@ def cc7():
 
                         if age >= 1 and age <= 59:
                             if final1 < 0:
-                                print(f"\n\n\tDear Customer, the amount you've entered is short by {round(final1, 2)}. Please try again\n\t ")
+                                print(f"\n\n\tDear Customer, the amount you've entered is short by {round(final1, 2)}. "
+                                      "Please try again\n\t ")
                             else:
-                                print(f"\n\n\t\tHi customer {name}, you purchased a {item}, with a Price of {price} plus a 12.3% tax ({round(calc1, 2)}).\n\t\tTotal Cost: {round(calc2, 2)}\n\t\tAmount Given: {amount}\n\t\tChange: {round(final1, 2)}\n\t ")
+                                print(f"\n\n\t\tHi customer {name}, you purchased a {item}, with a Price of {price} plus a "
+                                      "12.3% tax ({round(calc1, 2)}).\n\t\tTotal Cost: {round(calc2, 2)}\n\t\tAmount Given: "
+                                      "{amount}\n\t\tChange: {round(final1, 2)}\n\t ")
 
                         elif age >= 60 and age <= 150:
                             if final2 < 0:
-                                print(f"\n\n\tDear Senior Customer, the amount you've entered is short by {round(final2, 2)}. Please try again\n\t ")
+                                print(f"\n\n\tDear Senior Customer, the amount you've entered is short by {round(final2, 2)}. "
+                                      "Please try again\n\t ")
                             else:
-                                print(f"\n\n\t\tHi customer {name}, you purchased a {item}, with a Price of {price} plus a 12.3% tax ({round(calc1, 2)}), and since you are a senior at the age of {age}, you will get a 5.2% discount ({round(calc3, 2)}).\n\t\tTotal Cost: {round(calc4, 2)}\n\t\tAmount Given: {amount}\n\t\tChange: {round(final2, 2)}\n\t ")
+                                print(f"\n\n\t\tHi customer {name}, you purchased a {item}, with a Price of {price} plus a "
+                                      "12.3% tax ({round(calc1, 2)}), and since you are a senior at the age of {age}, you will "
+                                      "get a 5.2% discount ({round(calc3, 2)}).\n\t\tTotal Cost: {round(calc4, 2)}\n\t\tAmount "
+                                      "Given: {amount}\n\t\tChange: {round(final2, 2)}\n\t ")
 
         elif groc == "NO":
             print("\n\n\tThank you for coming to our store\n\t ")
@@ -251,3 +256,281 @@ def cc12():
             print("*", end= " ")
 
         print()
+
+def cc13():
+
+    for i in range(1, 9):
+        for j in range(9, i, - 1):
+            print(" ", end= " ")
+        for k in range(i, 1, - 1):
+            print(k, end= " ")
+        for l in range(1, i + 1):
+            print(l, end= " ")
+
+        print()
+        
+    for i in range(9, 0, -1):
+        for j in range(9, i, - 1):
+            print(" ", end= " ")
+        for k in range(i, 1, - 1):
+            print(k, end= " ")
+        for l in range(1, i + 1):
+            print(l, end= " ")
+
+        print()
+
+def cc14():
+
+    count = True
+    num = 0
+
+
+    while count == True:
+        
+        number = int(input("\n\tEnter a number: "))
+
+        if number == 0:
+            print("\n\t\tThe loop has now stopped")
+
+            question = input("\n\tDo you still want to continue? [Yes / No]: ").upper().strip()
+
+            if question == "YES":
+                print("\n\t\tThe system has stopped")
+                print(f"\n\t\tThe sum of all number is {num}\n")
+                break
+
+            elif question == "NO":
+                print("\n\t\tThe loop will now continue")
+                continue
+            
+            else:
+                print("\n\tInvalid Input. Only Answer in [Yes / No]\n")
+                continue
+
+        elif number < 0:
+            print("\n\t\tInvalid Input. Try Again")
+            continue
+
+        else:
+            num += number
+            continue
+
+def cc15():
+
+    count = True
+    num = 0
+
+    while count == True:
+
+        triangle = input("\n\tDo you want to increase the number of Right Triangle? [Yes / No]: ").upper().strip()
+
+        if triangle == "NO":
+            print("\n\t\tThe loop has stopped")
+
+            question = input("\n\tDo you still want to continue? [Yes / No]: ").upper().strip()
+            
+            
+            if question == "YES":
+                print("\n\t\tThe system has stopped")
+                print(f"\n\t\tThe sum of all Right Triangle created is {num}\n")
+                break
+            
+            elif question == "NO":
+                print("\n\t\tThe loop will now continue")
+                continue
+            
+            
+        elif triangle == "YES":
+            num += 1
+
+            for i in range(1, 6):
+                for j in range(1, num + 1):
+                    for k in range(1, i + 1):
+                        print(k, end= " ")
+                    for l in range(6, i, -1):
+                        print(" ", end= " ")
+
+                print()
+
+            continue
+
+        else:
+            print("\n\tInvalid Input. Only Answer in [Yes / No]\n")
+            continue
+
+def cc16():
+
+    account = {}
+
+    def create_account():
+        name = input("\tEnter Your Name: ").strip()
+
+        if name in account:
+            print("\n\n\tThis Account Already Exist.")
+            return
+        
+        while True:
+            try:
+
+                deposit = int(input("\n\tEnter Your Initial Deposit: "))
+
+                if deposit < 0:
+                    print("\n\n\tError. Please Enter A Positive Number.")
+                    continue
+                
+                account[name] = deposit
+
+                print(f"\n\n\t\tThe Account For {name} With A Initial Deposit Of ₱{deposit} Have Been Created.")
+                break
+            
+            except ValueError:
+                print("\n\n\tError. Enter A Number.")
+
+    def deposit_amount():
+        name = input("\n\tEnter Your Name: ").strip()
+
+        if name not in account:
+            print("\n\n\tThis Account Does Not Exist.")
+            return
+        
+        while True:
+            try:
+
+                deposit = int(input("\n\tEnter Your Amount To Deposit: "))
+
+                if deposit < 0:
+                    print("\n\n\tError. Please Enter A Positive Number.")
+                    continue
+
+                account[name] += deposit
+
+                print(f"\n\n\t\tThe Account For {name} With A Deposit Of ₱{deposit} Have Been Added Into Account.")
+                print(f"\n\n\t\tThe Current Balance Of {name} is: ₱{account[name]}")
+                break
+
+            except ValueError:
+                print("\n\n\tError. Enter A Number.")
+            
+    def withraw_amount():
+        name = input("\n\tEnter Your Name: ").strip()
+
+        if name not in account:
+            print("\n\n\tThis Account Does Not Exist.")
+            return
+
+        while True:
+            try:
+
+                withrawal = int(input("\n\tEnter Your Amount To Withraw: "))
+
+                if withrawal < 0:
+                    print("\n\n\tError. Please Enter A Positive Number.")
+                    continue
+
+                elif withrawal > account[name]:
+                    print("\n\n\tError. Insufficient Amount")
+                    continue
+
+                account[name] -= withrawal
+
+                print(f"\n\n\t\tThe Account for {name} With A Withrawal Of ₱{withrawal} Has Been Removed From Account")
+                print(f"\n\n\t\tThe Current Balance Of {name} is: ₱{account[name]}")
+                break
+            
+            except ValueError:
+                print("\n\n\tError. Enter A Number.")
+
+    def balance_amount():
+        name = input("\n\tEnter Your Name: ").strip()
+
+        if name not in account:
+            print("\n\n\tThis Account Does Not Exist.")
+            return
+
+        print(f"\n\n\t\tThe Current Balance Of {name} is: ₱{account[name]}")
+
+
+        while True:
+
+            desicion = input("\n\tDo You Want To Denominate Your Current Balance? [Yes / No]: ").strip().upper()
+
+            if desicion == "YES":
+
+                ans1 = account[name] // 1000
+                num1 = account[name] % 1000
+
+                ans2 = num1 // 500
+                num2 = num1 % 500
+
+                ans3 = num2 // 200
+                num3 = num2 % 200
+
+                ans4 = num3 // 100
+                num4 = num3 % 100
+
+                ans5 = num4 // 50
+                num5 = num4 % 50
+
+                ans6 = num5 // 20
+                num6 = num5 % 20
+
+                ans7 = num6 // 10
+                num7 = num6 % 10
+
+                ans8 = num7 // 5
+                num8 = num7 % 5
+
+                ans9 = num8 // 1
+
+                print(f"\n\n\t\tThe Current Balance Of {name} is: ₱{account[name]}")
+                print(f"\n\n\t\t₱1000 - {ans1}"
+                    f"\n\t\t₱500 - {ans2}"
+                    f"\n\t\t₱200 - {ans3}"
+                    f"\n\t\t₱100 - {ans4}"
+                    f"\n\t\t₱50 - {ans5}"
+                    f"\n\t\t₱20 - {ans6}"
+                    f"\n\t\t₱10 - {ans7}"
+                    f"\n\t\t₱5 - {ans8}"
+                    f"\n\t\t₱1 - {ans9}")
+                
+                break
+
+            elif desicion == "NO":
+                print("\n\tDenomination Cancelled.")
+                return
+
+            else:
+                print("\n\n\tError. Wrong Input.")
+                continue
+
+    while True:
+
+        print("\n\tSelect an Option:"
+            "\n\n\t1. [Create an Account]"
+            "\n\t2. [Deposit]"
+            "\n\t3. [Withraw]"
+            "\n\t4. [Balance]"
+            "\n\t5. [Exit]")
+
+        try:
+
+            choice = int(input("\n\nEnter Your Option: "))
+
+            if choice == 1:
+                create_account()
+            elif choice == 2:
+                deposit_amount()
+            elif choice == 3:
+                withraw_amount()
+            elif choice == 4:
+                balance_amount()
+            elif choice == 5:
+                print("\n\tThe System Will Now Terminate\n")
+                break
+
+            else:
+                print("\n\n\tError. Wrong Input.")
+                continue
+
+        except ValueError:
+            print("\n\n\tError. Enter A Number.")
