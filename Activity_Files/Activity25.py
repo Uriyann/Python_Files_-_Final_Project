@@ -1,4 +1,4 @@
-def act25():
+def list():
 
     courses = ["BSIT", "BSA", "BSAIS", "BTVTED", "BSSW", "BSPA", "Delete w/o index", "Delete with index"]
 
@@ -9,4 +9,4 @@ def act25():
 
     print(courses)
 
-act25()
+list()

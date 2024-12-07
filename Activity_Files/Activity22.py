@@ -312,123 +312,159 @@ def act21():
             if ask =="STOP":
                   Hallo(ask)
 
+def act23():
 
+      def add(num1, num2):
+            """This function adds the first number and second number returnig sum value"""
+            return print(f"The sum of the numbers are: {num1 + num2}")    
 
+      add()
 
-compile = True
-
-while compile:
-      print("SELECT FROM THE FOLLOWING PROGRAMS BELOW \n\t"
-            "Activity 1 - 1"
-            "Activity 2 - 2"
-            "Activity 3 - 3"
-            "Activity 4 - 4"
-            "Activity 5 - 5"
-            "Activity 6 - 6"
-            "Activity 7 - 7"
-            "Activity 8 - 8"
-            "Activity 9 - 9"
-            "Activity 10 - 10"
-            "Activity 11 - 11"
-            "Activity 12 - 12"
-            "Activity 13 - 13"
-            "Activity 14 - 14"
-            "Activity 15 - 15"
-            "Activity 16 - 16"
-            "Activity 17 - 17"
-            "Activity 18 - 18"
-            "Activity 19 - 19"
-            "Activity 20 - 20"
-            "Activity 21 - 21")
-
-      num = int(input("Select a Program: "))
-
-      if num == 1:
-            act1()
-            continue
-
-      elif num == 2:
-            act2()
-            continue
-
-      elif num == 3:
-            act3()
-            continue
-
-      elif num == 4:
-            act4()
-            continue
-
-      elif num == 5:
-            act5()
-            continue
-
-      elif num == 6:
-            act6()
-            continue
+def act24():
       
-      elif num == 7:
-            act7()
-            continue
+      from Activity23 import add
+      import Activity1
 
-      elif num == 8:
-            act8()
-            continue
+      add(21,21)
+      Activity1
 
-      elif num == 9:
-            act9()
-            continue
+def act25():
 
-      elif num == 10:
-            act10()
-            continue
+      def list():
 
-      elif num == 11:
-            act11()
-            continue
+            courses = ["BSIT", "BSA", "BSAIS", "BTVTED", "BSSW", "BSPA", "Delete w/o index", "Delete with index"]
 
-      elif num == 12:
-            act12()
-            continue
+            courses.remove("Delete w/o index")
+            courses.pop()
+            courses.append("DHRS")
+            courses.insert(0, "ABELS")
 
-      elif num == 13:
-            act13()
-            continue
+            print(courses)
 
-      elif num == 14:
-            act14()
-            continue
+      list()
+
+
+try:
+      compile = True
+
+      while compile:
+
+            print("\n\tSELECT FROM THE FOLLOWING PROGRAMS BELOW \n\t"
+                  "\n\tActivity 1 - [1]", "\tActivity 9 - [9]", "\tActivity 17 - [17]"
+                  "\n\tActivity 2 - [2]", "\tActivity 10 - [10]", "\tActivity 18 - [18]"
+                  "\n\tActivity 3 - [3]", "\tActivity 11 - [11]", "\tActivity 20 - [20]"
+                  "\n\tActivity 4 - [4]", "\tActivity 12 - [12]", "\tActivity 21 - [21]"
+                  "\n\tActivity 5 - [5]", "\tActivity 13 - [13]", "\tActivity 23 - [23]"
+                  "\n\tActivity 6 - [6]", "\tActivity 14 - [14]", "\tActivity 24 - [24]"
+                  "\n\tActivity 7 - [7]", "\tActivity 15 - [15]", "\tActivity 25 - [25]"
+                  "\n\tActivity 8 - [8]", "\tActivity 16 - [16]", )
+
+            num = int(input("\n\n\tSelect a Program: "))
+
+            if num == 1:
+                  act1()
+                  continue
+
+            elif num == 2:
+                  act2()
+                  continue
+
+            elif num == 3:
+                  act3()
+                  continue
+
+            elif num == 4:
+                  act4()
+                  continue
+
+            elif num == 5:
+                  act5()
+                  continue
+
+            elif num == 6:
+                  act6()
+                  continue
             
-      elif num == 15:
-            act15()
-            continue
+            elif num == 7:
+                  act7()
+                  continue
 
-      elif num == 16:
-            act16()
-            continue
+            elif num == 8:
+                  act8()
+                  continue
 
-      elif num == 17:
-            act17()
-            continue
-      
-      elif num == 18:
-            act18()
-            continue
+            elif num == 9:
+                  act9()
+                  continue
 
-      elif num == 19:
-            act19()
-            continue
+            elif num == 10:
+                  act10()
+                  continue
 
-      elif num == 20:
-            act20()
-            continue
+            elif num == 11:
+                  act11()
+                  continue
 
-      elif num == 21:
-            act21()
-            continue
+            elif num == 12:
+                  act12()
+                  continue
 
-      else:
-            print("Thank You For Using Our Program")
-            break
+            elif num == 13:
+                  act13()
+                  continue
 
+            elif num == 14:
+                  act14()
+                  continue
+                  
+            elif num == 15:
+                  act15()
+                  continue
 
+            elif num == 16:
+                  act16()
+                  continue
+
+            elif num == 17:
+                  act17()
+                  continue
+            
+            elif num == 18:
+                  act18()
+                  continue
+
+            elif num == 19:
+                  act19()
+                  continue
+
+            elif num == 20:
+                  act20()
+                  continue
+
+            elif num == 21:
+                  act21()
+                  continue
+
+            elif num == 23:
+                  act23()
+                  continue
+
+            elif num == 24:
+                  act24()
+                  continue
+
+            elif num == 25:
+                  act25()
+                  continue
+            
+            elif num < 0:
+                  print("Wrong Input. Must Be A Positive Number.")
+                  continue
+
+            else:
+                  print("Thank You For Using Our Program.")
+                  break
+
+except ValueError:
+
+      print("Wrong Input. Must Be A Number.")
