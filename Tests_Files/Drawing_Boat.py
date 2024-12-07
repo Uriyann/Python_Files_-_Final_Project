@@ -42,3 +42,5 @@ rear_hull()
 p.end_fill()
 
 screen.exitonclick()
+
+"""Ordinary Python Project With Boat Drawing"""
