@@ -11,4 +11,4 @@ while True:
     print(compute)
     print()
 
-#this program will determin the cryptograph
+"""This Program Will Determine The Number For Cryptograph"""
