@@ -357,7 +357,7 @@ try:
                   "\n\tActivity 5 - [5]", "\tActivity 13 - [13]", "\tActivity 23 - [23]"
                   "\n\tActivity 6 - [6]", "\tActivity 14 - [14]", "\tActivity 24 - [24]"
                   "\n\tActivity 7 - [7]", "\tActivity 15 - [15]", "\tActivity 25 - [25]"
-                  "\n\tActivity 8 - [8]", "\tActivity 16 - [16]", )
+                  "\n\tActivity 8 - [8]", "\tActivity 16 - [16]", "\tExit - [0]")
 
             num = int(input("\n\n\tSelect a Program: "))
 
@@ -457,14 +457,30 @@ try:
                   act25()
                   continue
             
+            elif num == 0:
+                  cont = input("Do you want to continue? [Yes] / [No]: ").upper().strip()
+
+                  if cont == "YES":
+                        print("The program will not be terminated")
+                        print("Thank you for using the program")
+                        break
+
+                  elif cont == "NO":
+                        print("The program will now continue")
+                        continue
+
+                  else:
+                        print("Wrong Input. Invalid Answer")
+
+
             elif num < 0:
                   print("Wrong Input. Must Be A Positive Number.")
                   continue
 
             else:
-                  print("Thank You For Using Our Program.")
-                  break
+                  print("Wrong Input. Invalid Answer")
+                  continue
 
 except ValueError:
-
       print("Wrong Input. Must Be A Number.")
+      
