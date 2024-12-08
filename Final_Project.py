@@ -21,4 +21,4 @@ def clear():
 
 def Main_Menu():
 
-    print("\n")
+    print("\n==================================")
