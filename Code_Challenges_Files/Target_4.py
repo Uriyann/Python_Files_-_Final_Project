@@ -1,4 +1,9 @@
+import os
+
+
 num = int(input("Enter the number of right triangle: "))
+
+os.system("cls")
 
 for i in range(1, 6):
     for j in range(1, num + 1):
