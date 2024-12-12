@@ -1,10 +1,7 @@
-def add_numbers(x, y):
+even_num = []
 
-    result = x + y
-    print(result)
-    
-    return result
+even_num.append(2)
+even_num.append(4)
+even_num.append(6)
 
-
-
-add_numbers(2, 3)
+print(even_num)
