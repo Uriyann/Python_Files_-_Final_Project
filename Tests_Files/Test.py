@@ -1,7 +1,5 @@
-even_num = []
+dict = {'Name': 'Zara', 'Age': 7, 'Class': 'First'}
 
-even_num.append(2)
-even_num.append(4)
-even_num.append(6)
-
-print(even_num)
+print (dict['Name'])
+print (dict['Age'])
+print (dict['Class'])
