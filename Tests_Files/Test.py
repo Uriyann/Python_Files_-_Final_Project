@@ -1,5 +1,6 @@
-dict = {'Name': 'Zara', 'Age': 7, 'Class': 'First'}
-
-print (dict['Name'])
-print (dict['Age'])
-print (dict['Class'])
+x = "Sample String"
+print(x)
+print(x[2:5])
+s = "Vietnam,Indonesia,Philippines"
+a = s.split(",")
+print(a)
