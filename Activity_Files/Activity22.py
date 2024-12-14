@@ -486,3 +486,4 @@ def act22():
       except ValueError:
             print("Wrong Input. Must Be A Number.")
       
+act22()
