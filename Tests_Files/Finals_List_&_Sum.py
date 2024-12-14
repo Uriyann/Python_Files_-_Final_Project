@@ -2,9 +2,9 @@ even_num = []
 odd_num = 0
 
 while True:
-    ask = eval(input("Enter a number (type 0 to stop)--> ")) 
+    ask = int(input("Enter a number (type 0 to stop): ")) 
 
-    if ask==0:
+    if ask == 0:
         break
 
     elif ask % 2 == 0:
@@ -16,4 +16,4 @@ while True:
 
 
 print(odd_num)
-print(even)
+print(even_num)
