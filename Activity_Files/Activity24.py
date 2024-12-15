@@ -1,5 +1,6 @@
-from Activity23 import add
-import Activity1
+def Act24():
+    from Activity23 import add
+    import Activity1
 
-add(21,21)
-Activity1
+    Act24()
+    Activity1
