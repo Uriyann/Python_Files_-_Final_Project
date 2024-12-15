@@ -18,7 +18,8 @@ from Code_Challenges_Files import (
 
 from Personal_Project_Files import (
 
-                    
+                    Drawing_Boat, Drawing_Heart, Drawing_Rhombus,
+                    Lyrics_Ver1, Lyrics_Ver2
 
                     )
 
