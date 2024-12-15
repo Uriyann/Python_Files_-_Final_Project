@@ -4,3 +4,5 @@ def Act23():
         return print(f"The sum of the numbers are: {num1 + num2}")    
 
     add(1, 2)
+
+Act23()

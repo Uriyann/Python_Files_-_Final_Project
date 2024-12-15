@@ -11,3 +11,5 @@ def Act25():
         print(courses)
 
     list()
+
+Act25()
