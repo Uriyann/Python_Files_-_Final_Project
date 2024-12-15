@@ -20,3 +20,5 @@ def Act20():
                         print("*", end= " ")
                     print()    
             continue
+
+Act20()
