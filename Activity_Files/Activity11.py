@@ -6,3 +6,5 @@ def Act11():
             single = False
 
             print(f"{single}, That I'm Single")
+
+Act11()
