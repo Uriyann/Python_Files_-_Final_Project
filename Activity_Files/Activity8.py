@@ -18,5 +18,4 @@ def Act8():
 	else:
 		print("\n\tUnfortunately You Have Failed")
 
-
-
+Act8()

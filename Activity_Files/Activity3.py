@@ -38,3 +38,5 @@ def Act3():
             ", belonging to the religion of "+rel+" with your citizenship of "+citi+" and you have known "+lang+
             " languages. You currently live in "+strt+", "+brgy+", "+city+", "+prvnc+". You currently use the phone number"
             ,num,"and the email "+email+". Lastly, you are a student of DLL from department of BSIT:",bsit)
+      
+Act3()

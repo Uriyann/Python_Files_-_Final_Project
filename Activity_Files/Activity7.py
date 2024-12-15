@@ -13,3 +13,5 @@ def Act7():
 
       else:
             print("Wrong Input")
+
+Act7()
