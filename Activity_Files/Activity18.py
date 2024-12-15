@@ -10,3 +10,5 @@ def Act18():
                         print(" ", end= " ") 
 
             print()
+
+Act18()
