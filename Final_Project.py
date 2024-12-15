@@ -67,4 +67,10 @@ def Main_Menu():
         print("\n\t[Error. Enter A Real Number.]"
               "\n")
 
-Main_Menu()
+# def Activities():
+#     try:
+#         while True:
+
+
+if __name__ == "__main__":
+    Main_Menu()
