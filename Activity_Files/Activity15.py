@@ -5,3 +5,4 @@ def Act15():
                   print("*", end= (" "))
             print()
             
+Act15()
