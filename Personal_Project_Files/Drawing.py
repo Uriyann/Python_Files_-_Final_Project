@@ -1,24 +1,28 @@
 import math
 from turtle import *
 
-def hearta(k):
-    return 15 * math.sin(k)**3
+def Heart():
 
-def heartb(k):
-    return 12 * math.cos(k) - 5 * math.cos(2 * k) - 2 * math.cos(3 * k) - math.cos(4 * k)
+    def hearta(k):
+        return 15 * math.sin(k)**3
 
-speed(6000)  # Maximum speed
-bgcolor("black")
-penup()  # Start without drawing
-goto(0, 0)  # Move to the center
-pendown()  # Start drawing
+    def heartb(k):
+        return 12 * math.cos(k) - 5 * math.cos(2 * k) - 2 * math.cos(3 * k) - math.cos(4 * k)
 
-for i in range(60000):  # Reduced for testing
-    x = hearta(i / 100) * 20  # Scale and smooth movement
-    y = heartb(i / 100) * 20
-    goto(x, y)
-    color("red")
+    speed(6000)  # Maximum speed
+    bgcolor("black")
+    penup()  # Start without drawing
+    goto(0, 0)  # Move to the center
+    pendown()  # Start drawing
 
-done()
+    for i in range(60000):  # Reduced for testing
+        x = hearta(i / 100) * 20  # Scale and smooth movement
+        y = heartb(i / 100) * 20
+        goto(x, y)
+        color("red")
 
-"""A Drawing Project With A Friend Whom She Had An Intrested In Turtle Module"""
+    done()
+
+    """A Drawing Project With A Friend Whom She Had An Intrested In Turtle Module"""
+
+Heart()
