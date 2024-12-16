@@ -5,4 +5,3 @@ def Act24():
     Act24()
     Activity1
 
-Act24()

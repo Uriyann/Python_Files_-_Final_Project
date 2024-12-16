@@ -21,4 +21,3 @@ def Act20():
                     print()    
             continue
 
-Act20()

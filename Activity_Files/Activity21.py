@@ -16,4 +16,3 @@ def Act21():
         else: 
             tuloy = False
 
-Act21()
