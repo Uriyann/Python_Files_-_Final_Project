@@ -1,4 +1,4 @@
-def Code_Chal5():
+def Code_Chal6():
 	print("\n\n\t\t\b\b|========================|\n\t\t\b\b|   By: Joshua Barotea   |\n\t\t\b\b|========================|")
 
 	name = input("\n\n\tEnter Your Name: ")

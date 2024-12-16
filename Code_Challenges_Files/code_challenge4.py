@@ -1,4 +1,4 @@
-def Code_Chal2():
+def Code_Chal4():
       print("\n\n\t\t\b\b|========================|\n\t\t\b\b|   By: Joshua Barotea   |\n\t\t\b\b|========================|")
 
       num1 = eval(input("\n\n\t\t\t\t\b\bEnter a Number: "))
