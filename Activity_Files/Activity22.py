@@ -1,4 +1,4 @@
-def act22():
+def Act22():
       
       def act1():
             print("\n\t\t\t\t\t\t\t\t\t\t\t\t\b\t*\t \n\t\t\t\t\t\t\t\t\t\t\t\t\b\t\b\b* * *",
