@@ -54,7 +54,7 @@ def Main_Menu():
             if num == 1:
                 Activities()
             elif num == 2:
-                pass
+                Code_Chal()
             elif num == 3:
                 pass
             elif num == 4:
@@ -159,7 +159,6 @@ def Activities():
                 print("\n\t[The Activity Project will now be terminated.]"
                       "\n")
                 Main_Menu()
-                break
             elif num < 0:
                 print("\n\t[Error. Please Enter A Positive Number.]")
             elif num >= 26:
@@ -180,13 +179,13 @@ def Code_Chal():
                   "\n\t| ============= -Code_Menu- ============= |"
                   "\n\t| ======================================= |"
                 
-                "\n\n\t[ 1 ] - Code_Challenge_1  \t[ 10 ] - Code_Challenge_1"
-                  "\n\t[ 2 ] - Code_Challenge_2  \t[ 11 ] - Code_Challenge_1"
-                  "\n\t[ 3 ] - Code_Challenge_3  \t[ 12 ] - Code_Challenge_1"
-                  "\n\t[ 4 ] - Code_Challenge_4  \t[ 13 ] - Code_Challenge_1"
-                  "\n\t[ 5 ] - Code_Challenge_5  \t[ 14 ] - Code_Challenge_1"
-                  "\n\t[ 6 ] - Code_Challenge_6  \t[ 15 ] - Code_Challenge_1"
-                  "\n\t[ 7 ] - Code_Challenge_7  \t[ 16 ] - Code_Challenge_1"
+                "\n\n\t[ 1 ] - Code_Challenge_1  \t[ 10 ] - Code_Challenge_10"
+                  "\n\t[ 2 ] - Code_Challenge_2  \t[ 11 ] - Code_Challenge_11"
+                  "\n\t[ 3 ] - Code_Challenge_3  \t[ 12 ] - Code_Challenge_12"
+                  "\n\t[ 4 ] - Code_Challenge_4  \t[ 13 ] - Code_Challenge_13"
+                  "\n\t[ 5 ] - Code_Challenge_5  \t[ 14 ] - Code_Challenge_14"
+                  "\n\t[ 6 ] - Code_Challenge_6  \t[ 15 ] - Code_Challenge_15"
+                  "\n\t[ 7 ] - Code_Challenge_7  \t[ 16 ] - Code_Challenge_16"
                   "\n\t[ 8 ] - Code_Challenge_8  \t[ 0 ] - Terminate"
                   "\n\t[ 9 ] - Code_Challenge_9"
                   
@@ -228,10 +227,9 @@ def Code_Chal():
                 code_challenge16.Code_Chal16()
             
             elif num == 0:
-                print("\n\t[The Activity Project will now be terminated.]"
+                print("\n\t[The Code Challenge Project will now be terminated.]"
                       "\n")
                 Main_Menu()
-                break
             elif num < 0:
                 print("\n\t[Error. Please Enter A Positive Number.]")
             elif num >= 26:
