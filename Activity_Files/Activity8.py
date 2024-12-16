@@ -17,5 +17,3 @@ def Act8():
 		print("\n\tCongratulations! You have passed the course")
 	else:
 		print("\n\tUnfortunately You Have Failed")
-
-Act8()

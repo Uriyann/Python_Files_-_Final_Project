@@ -8,5 +8,3 @@ def Act13():
 
       print(i)
       print(sum)
-
-Act13()

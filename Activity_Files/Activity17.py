@@ -22,5 +22,3 @@ def Act17():
 			print("*", end= " ")
 
 		print()
-
-Act17()
