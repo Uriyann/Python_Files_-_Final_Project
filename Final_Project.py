@@ -195,12 +195,53 @@ def Code_Chal():
             num = int(input("\n\n\tChoose A Number: "))
 
             if num == 1:
-                code_challenge1
+                code_challenge1.Code_Chal1()
             elif num == 2:
-                Activity2.Act2()
+                code_challenge2.Code_Chal2()
             elif num == 3:
-                Activity3.Act3()
-            elif num == 2:
+                activity3_BAROTEA.Code_Chal3()
+            elif num == 4:
+                code_challenge4.Code_Chal4()
+            elif num == 5:
+                code_challenge5.Code_Chal5()
+            elif num == 6:
+                code_challenge6.Code_Chal6()
+            elif num == 7:
+                code_challenge7.Code_Chal7()
+            elif num == 8:
+                code_challenge8.Code_Chal8()
+            elif num == 9:
+                code_challenge8.Code_Chal8()
+            elif num == 10:
+                code_challenge9.Code_Chal9()
+            elif num == 11:
+                code_challenge11.Code_Chal11()
+            elif num == 12:
+                code_challenge12.Code_Chal12()
+            elif num == 13:
+                code_challenge13.Code_Chal13()
+            elif num == 14:
+                code_challenge14.Code_Chal14()
+            elif num == 15:
+                code_challenge15.Code_Chal15()
+            elif num == 16:
+                code_challenge16.Code_Chal16()
+            
+            elif num == 0:
+                print("\n\t[The Activity Project will now be terminated.]"
+                      "\n")
+                Main_Menu()
+                break
+            elif num < 0:
+                print("\n\t[Error. Please Enter A Positive Number.]")
+            elif num >= 26:
+                print("\n\t[Error. Please Enter An Approriate Number.]")
+            else:
+                print("\n\t[Error. Wrong Input.]")
+
+    except ValueError:
+        print("\n\t[Error. Enter A Real Number.]"
+              "\n")
 
 
 if __name__ == "__main__":
