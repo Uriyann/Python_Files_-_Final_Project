@@ -19,5 +19,3 @@ def Act9():
             print("You are a Todler")
       else:
             print("Enter a your Real Age")
-
-Act9()

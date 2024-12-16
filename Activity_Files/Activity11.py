@@ -7,4 +7,3 @@ def Act11():
 
             print(f"{single}, That I'm Single")
 
-Act11()
