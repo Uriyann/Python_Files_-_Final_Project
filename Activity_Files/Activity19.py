@@ -15,4 +15,3 @@ def Act19():
                   count += 1
                   continue
 
-Act19()

@@ -11,4 +11,3 @@ def Act18():
 
             print()
 
-Act18()

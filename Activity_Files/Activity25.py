@@ -12,4 +12,3 @@ def Act25():
 
     list()
 
-Act25()
