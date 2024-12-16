@@ -19,5 +19,3 @@ def Act4():
             "in subtraction is",sub,"\n\t\t\t\tThe sum of",number1,"and",number2,"in multiplication is",mul,"\n\t\t\t\tThe sum of",number1,"and",number2,
             "in division is",div,"\n\t\t\t\tThe sum of",number1,"and",number2,"in floor division is",flr_div,"\n\t\t\t\tThe sum of",number1,"and",number2,"in exponentiation is",exp,
             "\n\t\t\t\tThe sum of",number1,"and",number2,"in modulus is",mod,"\n\n ")
-
-Act4()

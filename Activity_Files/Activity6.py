@@ -10,5 +10,3 @@ def Act6():
 
     x+= 10
     print(x)
-
-Act6()

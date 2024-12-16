@@ -3,5 +3,3 @@ def Act2():
     num2 = int(input("Enter another number: "))
 
     print(num1, "Floor Divided to", num2 ,"=", num1 // num2)
-
-Act2()
