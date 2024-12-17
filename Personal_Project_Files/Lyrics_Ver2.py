@@ -34,6 +34,6 @@ def Lyrics_v2():
             thread.join()
 
     if __name__ == "__main__":
-        sing_song
+        sing_song()
 
     """Another Fun Project With A Friend, It Does Not Run Still On Progress"""
