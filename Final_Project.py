@@ -421,7 +421,8 @@ def Print():
                     "\n\n\tPrinting is the act of sending information (like strings, numbers, or variables)"
                     "\n\tto an output device, such as a console, where it can be displayed for the user to read."
                     "\n\n\tIn Python, printing is done using the print() function."
-                    "\n\n\tTo use the print function, you simply type print() followed by the value(s) that you want to print. "
+                    "\n\n\tTo use the print function, you simply type print() followed by the value(s) that you"
+                    "\n\twant to print. "
                 )
             elif num == 2:
                 print(
@@ -521,7 +522,8 @@ def Variables():
                         "\n\n\tA variable is a name that refers to a value stored in memory. "
                         "\n\tIt allows you to store, retrieve, and manipulate data."
                         "\n\n\tVariables in programming are like named boxes that can store information."
-                        "\n\tYou can use variables to store any type of data, such as numbers, strings, lists, and objects."
+                        "\n\tYou can use variables to store any type of data, such as numbers, strings, "
+                        "\n\tlists, and objects."
 
                     )
                 
@@ -601,10 +603,13 @@ def Operators():
 
                         "\n\n\tOperators are symbols or keywords used to perform operations on variables and values."
                         "\n\n\tThese operators allow for various functionalities, from basic arithmetic operations "
-                        "\n\tlike addition, subtraction, multiplication, and division to more complex comparisons and logical operations."
-                        "\n\tYou can use variables to store any type of data, such as numbers, strings, lists, and objects."
-                        "\n\n\tPython provides several types of operators, including arithmetic operators for mathematical calculations, "
-                        "\n\tcomparison operators to compare values, and assignment operators to assign values to variables."
+                        "\n\tlike addition, subtraction, multiplication, and division to more complex comparisons "
+                        "\n\tand logical operations."
+                        "\n\n\tYou can use variables to store any type of data, such as numbers, strings, lists, and "
+                        "\n\tobjects."
+                        "\n\n\tPython provides several types of operators, including arithmetic operators for "
+                        "\n\tmathematical calculations, comparison operators to compare values, and assignment operators"
+                        "\n\tto assign values to variables."
 
                     )
                 
@@ -688,7 +693,7 @@ def Conditionals():
 
                     "\n\tWelcome To Conditionals In Python"
 
-                    "\n\n\t\tOperators Menu"
+                    "\n\n\t\tConditionals Menu"
 
                     "\n\n\t[ 1 ] - Definition"
                     "\n\t[ 2 ] - Key Components"
@@ -703,7 +708,8 @@ def Conditionals():
 
                         "\n\t\t\t\tCONDITIONALS DEFINITION"
 
-                        "\n\n\tConditionals allow you to make decisions in your code based on whether a condition is True or False. "
+                        "\n\n\tConditionals allow you to make decisions in your code based on whether a condition is "
+                        "\n\tTrue or False. "
                         "\n\tThey use if-else statements to control the flow of execution."
                         "\n\n\tThe condition can be any expression that evaluates to a Boolean value (True or False). "
                         "\n\tIf the condition is True, the code block indented below the if statement will be executed. "
@@ -764,6 +770,114 @@ def Conditionals():
                     elif choice == "YES":
                         Clear()
                         print("\n\n\t[The Conditionals Menu will now be terminated.]\n")
+                        break
+
+                elif num < 0:
+                    Clear()
+                    print("\n\t[Error. Please Enter A Positive Number.]")
+                    continue
+                elif num >= 3:
+                    Clear()
+                    print("\n\t[Error. Please Enter An Approriate Number.]")
+                    continue
+                else:
+                    Clear()
+                    print("\n\t[Error. Wrong Input.]")
+                    continue
+        
+            except ValueError:
+                Clear()
+                print("\n\t[Error. Enter A Real Number.]"
+                    "\n")
+                continue
+
+def Loops():
+    while True:
+            try:
+                print(
+
+                    "\n\tWelcome To Loops In Python"
+
+                    "\n\n\t\tLoop Menu"
+
+                    "\n\n\t[ 1 ] - Definition"
+                    "\n\t[ 2 ] - Key Components"
+                    "\n\t[ 0 ] - Terminate"
+
+                )
+
+                num = int(input("\n\n\tChoose A Number Of Your Choices: "))
+
+                if num == 1:
+                    print(
+
+                        "\n\t\t\t\tLOOPS DEFINITION"
+
+                        "\n\n\tLoops are used to execute a block of code repeatedly based on a condition or a "
+                        "\n\tsequence of items."
+                        "\n\tPython provides two primary types of loops: for loops and while loops."
+                        "\n\n\tA for loop is used to iterate over a sequence (like a list, string, or range). "
+                        "\n\tIt executes the block of code for each item in the sequence."
+                        "\n\n\tA while loop repeats as long as the condition is True. It checks the condition "
+                        "\n\tbefore each iteration."
+
+                    )
+                
+                elif num == 2:
+
+                    print(
+
+                        "\n\t\tKEY COMPONENTS"
+
+                        "\n\n\n\tfor Loop"
+                        "\n\n\tfor i in range(5): \t# Iterates over the range 0 to 4"
+                        "\n\t\tprint(i) \n\t\t# Output: 0 1 2 3 4"
+                        "\n\n\tfor i in range(2, 10, 2): \t# Start at 2, end before 10, step by 2"
+                        "\n\t\tprint(i) \n\t\t# Output: 0 2 4 6 8"
+                        "\n\n\tfor i in range(10, 0, -1): \t# Start at 10, ending before 0"
+                        "\n\t\tprint(i) \n\t\t# Output: 10 9 8 7 6 5 4 3 2 1"
+
+                        "\n\n\n\twhile Loop"
+                        "\n\n\tcount = 0"
+                        "\n\twhile count < 5:"
+                        "\n\t\tprint(count) \n\t\t# Output: 0 1 2 3 4"
+                        "\n\t\tcount += 1"
+
+                        "\n\n\n\tNested Loops"
+                        "\n\n\tfor i in range(3):"
+                        "\n\n\t\tfor j in range(3):"
+                        "\n\t\t\tprint(i * j) \n\t\t\t# Output: 1 2 3, 2 4 6, 3 6 9"
+
+                        "\n\n\n\tbreak and continue Statements"
+                        "\n\n\tfor i in range(10):"
+                        "\n\t\tif i == 5:"
+                        "\n\t\t\tbreak \t# Exit the loop when i equals 5"
+                        "\n\t\tprint(i)  \n\t\t# Output: 0 1 2 3 4"
+
+                        "\n\n\tfor i in range(5):"
+                        "\n\t\tif i == 2:"
+                        "\n\t\t\tcontinue \t# Skip the iteration when i equals 2"
+                        "\n\t\tprint(i)  \n\t\t# Output: 0 1 3 4"
+
+                        "\n\n\n\tInfinite Loops"
+                        "\n\n\twhile True:"
+                        "\n\t\tprint('This will run forever unless stopped.')"
+                        "\n\t\t# You can add a break condition to exit the loop."
+
+                    )
+                
+                elif num == 0:
+                    Clear()
+                    choice = input("\n\t[The Loop Menu Has Stopped.]"
+                                "\n\n\tAre You Sure You Want To Continue: [Yes/No]: ").upper().strip()
+                    
+                    if choice == "NO":
+                        Clear()
+                        print("\n\t[The Loop Menu will now continue.]")
+                        continue
+                    elif choice == "YES":
+                        Clear()
+                        print("\n\n\t[The Loop Menu will now be terminated.]\n")
                         break
 
                 elif num < 0:
