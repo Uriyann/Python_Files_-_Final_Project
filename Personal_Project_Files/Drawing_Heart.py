@@ -24,5 +24,3 @@ def Heart():
     done()
 
     """A Drawing Project With A Friend Whom She Had An Intrested In Turtle Module"""
-
-Heart()

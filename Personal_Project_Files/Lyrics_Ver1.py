@@ -30,5 +30,3 @@ def Lyrics_v1():
     print_lyrics()
 
     """Just A Fun Project Credit From Tiktok And A Friend Of Mine"""
-
-Lyrics_v1()

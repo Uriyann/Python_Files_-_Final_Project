@@ -37,5 +37,3 @@ def Lyrics_v2():
         sing_song
 
     """Another Fun Project With A Friend, It Does Not Run Still On Progress"""
-
-Lyrics_v2()

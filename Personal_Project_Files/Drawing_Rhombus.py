@@ -46,5 +46,3 @@ def Rhombus():
     top_left()
 
     """Finished Rhombus Drawing"""
-
-Rhombus()

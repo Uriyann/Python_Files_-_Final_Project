@@ -1,4 +1,4 @@
-def Turtle():
+def Boat():
     import turtle
 
     screen = turtle.Screen()
@@ -45,6 +45,4 @@ def Turtle():
     screen.exitonclick()
 
     """Ordinary Python Project With Boat Drawing"""
-
-Turtle()
 
