@@ -19,13 +19,6 @@ from Code_Challenges_Files import (
                     
                     )
 
-# from Personal_Project_Files import (
-
-#                     Drawing_Boat, Drawing_Heart, Drawing_Rhombus,
-#                     Lyrics_Ver1, Lyrics_Ver2
-
-#                     )
-
 def Clear():
 
     os.system("cls")
@@ -48,7 +41,7 @@ def Main_Menu():
 
                   )
             
-            num = int(input("\n\n\tChoose A Number: "))
+            num = int(input("\n\n\tSelect The Topic Of Your Choice: "))
 
             if num == 1:
                 Clear()
@@ -57,7 +50,9 @@ def Main_Menu():
                 Clear()
                 Code_Chal()
             elif num == 3:
-                pass
+                Clear()
+                Fundamentals()
+
 
             elif num == 0:
                 Clear()
@@ -118,7 +113,7 @@ def Activities():
                   
                   )
             
-            num = int(input("\n\n\tChoose A Number: "))
+            num = int(input("\n\n\tChoose A Number Of Your Choices: "))
 
             if num == 1:
                 Clear()
@@ -251,7 +246,7 @@ def Code_Chal():
                   
                   )
             
-            num = int(input("\n\n\tChoose A Number: "))
+            num = int(input("\n\n\tChoose A Number Of Your Choices: "))
 
             if num == 1:
                 Clear()
@@ -335,71 +330,255 @@ def Code_Chal():
                 "\n")
             continue
 
-# def Per_Project():
-#     while True:
-#         try:
-#             print(
+def Fundamentals():
+    while True:
+        try:
+            print(
                 
-#                 "\n\n\t| ======================================= |"
-#                   "\n\t| ========= -Compiled Projects- ========= |"
-#                   "\n\t| =============== ------- =============== |"
-#                   "\n\t| =========== -Personal_Menu- =========== |"
-#                   "\n\t| ======================================= |"
+                "\n\n\t| ======================================= |"
+                  "\n\t| ========= -Compiled Projects- ========= |"
+                  "\n\t| =============== ------- =============== |"
+                  "\n\t| ========= -Fundamentals_Menu- ========= |"
+                  "\n\t| ======================================= |"
                 
-#                 "\n\n\t[ 1 ] - Personal_Proj_1  \t[ 4 ] - Personal_Proj_4"
-#                   "\n\t[ 2 ] - Personal_Proj_2  \t[ 5 ] - Personal_Proj_5"
-#                   "\n\t[ 3 ] - Personal_Proj_3  \t[ 0 ] - Terminate"
+                "\n\n\t[ 1 ] - Print_Statements     \t[ 10 ] - Loops"
+                  "\n\t[ 2 ] - Variables            \t[ 11 ] - List"
+                  "\n\t[ 3 ] - Operators            \t[ 12 ] - Functions"
+                  "\n\t[ 4 ] - Conditionals         \t[ 0 ] - Terminate"
                   
-#                   )
+                  )
             
-#             num = int(input("\n\n\tChoose A Number: "))
+            num = int(input("\n\n\tChoose A Number Of Your Choices: "))
 
-#             if num == 1:
-#                 Drawing_Boat.Boat()
-#             elif num == 2:
-#                 Drawing_Heart.Heart()
-#             elif num == 3:
-#                 Drawing_Rhombus.Rhombus()
-#             elif num == 4:
-#                 Lyrics_Ver1.Lyrics_v1()
-#             elif num == 5:
-#                 Lyrics_Ver2.Lyrics_v2()
+            if num == 1:
+                Clear()
+                Print()
+            elif num == 2:
+                Clear()
+                Variables()
 
-#             elif num == 0:
-#                 Clear()
-#                 choice = input("\n\t[The Personal Project Menu Has Stopped.]"
-#                                "\n\n\tAre You Sure You Want To Continue: [Yes/No]: ").upper().strip()
+            elif num == 0:
+                Clear()
+                choice = input("\n\t[The Fundamentals Menu Has Stopped.]"
+                               "\n\n\tAre You Sure You Want To Continue: [Yes/No]: ").upper().strip()
                 
-#                 if choice == "NO":
-#                     Clear()
-#                     print("\n\t[The Personal Project Menu will now continue.]")
-#                     continue
-#                 elif choice == "YES":
-#                     Clear()
-#                     print("\n\n\t[The Personal Project Menu will now be terminated.]\n")
-#                     break
+                if choice == "NO":
+                    Clear()
+                    print("\n\t[The Fundamentals Menu will now continue.]")
+                    continue
+                elif choice == "YES":
+                    Clear()
+                    print("\n\n\t[The Fundamentals Menu will now be terminated.]\n")
+                    break
 
-#             elif num < 0:
-#                 Clear()
-#                 print("\n\t[Error. Please Enter A Positive Number.]")
-#                 continue
-#             elif num >= 6:
-#                 Clear()
-#                 print("\n\t[Error. Please Enter An Approriate Number.]")
-#                 continue
-#             else:
-#                 Clear()
-#                 print("\n\t[Error. Wrong Input.]")
-#                 continue
+            elif num < 0:
+                Clear()
+                print("\n\t[Error. Please Enter A Positive Number.]")
+                continue
+            elif num >= 13:
+                Clear()
+                print("\n\t[Error. Please Enter An Approriate Number.]")
+                continue
+            else:
+                Clear()
+                print("\n\t[Error. Wrong Input.]")
+                continue
         
-#         except ValueError:
-#             Clear()
-#             print("\n\t[Error. Enter A Real Number.]"
-#                 "\n")
-#             continue
+        except ValueError:
+            Clear()
+            print("\n\t[Error. Enter A Real Number.]"
+                "\n")
+            continue
 
+def Print():
+    while True:
+        try:
+            print(
 
+                "\n\tWelcome To Printing In Python"
 
+                "\n\n\t\tPrint Menu"
+
+                "\n\n\t[ 1 ] - Definition"
+                  "\n\t[ 2 ] - Key Components"
+                  "\n\t[ 0 ] - Terminate"
+
+            )
+
+            num = int(input("\n\n\tChoose A Number Of Your Choices: "))
+
+            if num == 1:
+                print(
+
+                    "\n\t\t\t\tPRINTING DEFINITION"
+
+                    "\n\n\tPrinting is the act of sending information (like strings, numbers, or variables)"
+                    "\n\tto an output device, such as a console, where it can be displayed for the user to read."
+                    "\n\n\tIn Python, printing is done using the print() function."
+                    "\n\n\tTo use the print function, you simply type print() followed by the value(s) that you want to print. "
+                )
+            elif num == 2:
+                print(
+
+                    "\n\t\tKEY COMPONENTS"
+
+                    "\n\n\n\tBasic Usage:"
+                    "\n\n\n\tprint('Hello, World!')"
+                    "\n\t# Output: Hello, World!"
+
+                    "\n\n\n\tPrinting Multiple Values:"
+                    "\n\n\n\tprint('Hello', 'World', 123)"
+                    "\n\t# Output: Hello World 123"
+
+                    "\n\n\n\tCustom End:"
+                    "\n\n\n\tprint('Hello', end=' ')"
+                    "\n\tprint('World!')"
+                    "\n\t# Output: Hello World!"
+
+                    "\n\n\n\tPrinting Variables:"
+                    "\n\n\n\tname = 'Joshua!')"
+                    "\n\tprint('Hello', name)"
+                    "\n\t# Output: Hello Joshua!"
+
+                    "\n\n\n\tFormatted Strings:"
+                    "\n\n\n\tage = 21)"
+                    "\n\tprint(f'I am {age} years old.')"
+                    "\n\t# Output: I am 18 years old."
+
+                    "\n\n\n\tEscape Sequence:"
+                    "\n\n\n\tprint('Hello\\nWorld')"
+                    "\n\t# Output: Hello"
+                    "\n\t          World"
+
+                    "\n\n\n\tprint('Hello\\tWorld')"
+                    "\n\t# Output: Hellow      World"
+
+                    "\n\n\n\tprint('Helloo\\bWorld')"
+                    "\n\t# Output: Hello World"
+                )
+
+            elif num == 0:
+                Clear()
+                choice = input("\n\t[The Print Menu Has Stopped.]"
+                               "\n\n\tAre You Sure You Want To Continue: [Yes/No]: ").upper().strip()
+                
+                if choice == "NO":
+                    Clear()
+                    print("\n\t[The Print Menu will now continue.]")
+                    continue
+                elif choice == "YES":
+                    Clear()
+                    print("\n\n\t[The Print Menu will now be terminated.]\n")
+                    break
+
+            elif num < 0:
+                Clear()
+                print("\n\t[Error. Please Enter A Positive Number.]")
+                continue
+            elif num >= 3:
+                Clear()
+                print("\n\t[Error. Please Enter An Approriate Number.]")
+                continue
+            else:
+                Clear()
+                print("\n\t[Error. Wrong Input.]")
+                continue
+        
+        except ValueError:
+            Clear()
+            print("\n\t[Error. Enter A Real Number.]"
+                "\n")
+            continue
+
+def Variables():
+    while True:
+            try:
+                print(
+
+                    "\n\tWelcome To Printing In Python"
+
+                    "\n\n\t\tPrint Menu"
+
+                    "\n\n\t[ 1 ] - Definition"
+                    "\n\t[ 2 ] - Key Components"
+                    "\n\t[ 0 ] - Terminate"
+
+                )
+
+                num = int(input("\n\n\tChoose A Number Of Your Choices: "))
+
+                if num == 1:
+                    print(
+
+                        "\n\t\t\t\tVARIABLE DEFINITION"
+
+                        "\n\n\tA variable is a name that refers to a value stored in memory. "
+                        "\n\tIt allows you to store, retrieve, and manipulate data."
+                        "\n\n\tVariables in programming are like named boxes that can store information."
+                        "\n\tYou can use variables to store any type of data, such as numbers, strings, lists, and objects."
+
+                    )
+                elif num == 2:
+                    print(
+
+                        "\n\t\tKEY COMPONENTS"
+
+                        "\n\n\n\tCreating Variables"
+                        "\n\n\tname = 'Joshua' \t# String"
+                        "\n\tage = 18 \t# Integer"
+                        "\n\theight = 5.9 \t# Float"
+                        "\n\tis_student = True \t# Boolean"
+
+                        "\n\n\n\tChanging Values"
+                        "\n\n\tage = 18"
+                        "\n\tage = 19"
+                        "\n\tprint(age)"
+                        "\n\t# Output: 19"
+
+                        "\n\n\tage = 18 \t# Output: 18"
+                        "\n\tage += 2 \t# Output: 20"
+                        "\n\tage -= 5 \t# Output: 15"
+                        "\n\tage *= 5 \t# Output: 75"
+                        "\n\tage /= 5 \t# Output: 3.0"
+                        "\n\tprint(age)"
+                        "\n\t# Output: 3.0"
+
+                    )
+                
+                elif num == 0:
+                    Clear()
+                    choice = input("\n\t[The Variable Menu Has Stopped.]"
+                                "\n\n\tAre You Sure You Want To Continue: [Yes/No]: ").upper().strip()
+                    
+                    if choice == "NO":
+                        Clear()
+                        print("\n\t[The Variable Menu will now continue.]")
+                        continue
+                    elif choice == "YES":
+                        Clear()
+                        print("\n\n\t[The Variable Menu will now be terminated.]\n")
+                        break
+
+                elif num < 0:
+                    Clear()
+                    print("\n\t[Error. Please Enter A Positive Number.]")
+                    continue
+                elif num >= 3:
+                    Clear()
+                    print("\n\t[Error. Please Enter An Approriate Number.]")
+                    continue
+                else:
+                    Clear()
+                    print("\n\t[Error. Wrong Input.]")
+                    continue
+        
+            except ValueError:
+                Clear()
+                print("\n\t[Error. Enter A Real Number.]"
+                    "\n")
+                continue
+
+            
 if __name__ == "__main__":
     Main_Menu()
 
