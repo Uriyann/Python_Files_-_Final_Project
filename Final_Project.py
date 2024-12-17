@@ -28,16 +28,16 @@ def Main_Menu():
         try:
             print(
                 
-                "\n\n\t| ======================================= |"
-                  "\n\t| ========= -Compiled Projects- ========= |"
-                  "\n\t| =============== ------- =============== |"
-                  "\n\t| ============= -Main Menu- ============= |"
-                  "\n\t| ======================================= |"
-                  
-                  "\n\n\t[ 1 ] - Activity_Project: "
-                  "\n\t[ 2 ] - Code_Challenges_Project: "
-                  "\n\t[ 3 ] - Python Fundamentals: "
-                  "\n\t[ 0 ] - Terminate "
+                "\t| ======================================= |"
+                "\n\t| ========= -Compiled Projects- ========= |"
+                "\n\t| =============== ------- =============== |"
+                "\n\t| ============= -Main Menu- ============= |"
+                "\n\t| ======================================= |"
+                
+                "\n\n\t[ 1 ] - Activity_Project: "
+                "\n\t[ 2 ] - Code_Challenges_Project: "
+                "\n\t[ 3 ] - Python Fundamentals: "
+                "\n\t[ 0 ] - Terminate "
 
                   )
             
@@ -91,25 +91,25 @@ def Activities():
         try:
             print(
                 
-                "\n\n\t| ======================================= |"
-                  "\n\t| ========= -Compiled Projects- ========= |"
-                  "\n\t| =============== ------- =============== |"
-                  "\n\t| =========== -Activity_Menu- =========== |"
-                  "\n\t| ======================================= |"
+                "\t| ======================================= |"
+                "\n\t| ========= -Compiled Projects- ========= |"
+                "\n\t| =============== ------- =============== |"
+                "\n\t| =========== -Activity_Menu- =========== |"
+                "\n\t| ======================================= |"
                 
                 "\n\n\t[ 1 ] - Activity_1  \t[ 14 ] - Activity_14"
-                  "\n\t[ 2 ] - Activity_2  \t[ 15 ] - Activity_15"
-                  "\n\t[ 3 ] - Activity_3  \t[ 16 ] - Activity_16"
-                  "\n\t[ 4 ] - Activity_4  \t[ 17 ] - Activity_17"
-                  "\n\t[ 5 ] - Activity_5  \t[ 18 ] - Activity_18"
-                  "\n\t[ 6 ] - Activity_6  \t[ 19 ] - Activity_19"
-                  "\n\t[ 7 ] - Activity_7  \t[ 20 ] - Activity_20"
-                  "\n\t[ 8 ] - Activity_8  \t[ 21 ] - Activity_21"
-                  "\n\t[ 9 ] - Activity_9  \t[ 22 ] - Activity_22"
-                  "\n\t[ 10 ] - Activity_10  \t[ 23 ] - Activity_23"
-                  "\n\t[ 11 ] - Activity_11  \t[ 24 ] - Activity_24"
-                  "\n\t[ 12 ] - Activity_12  \t[ 25 ] - Activity_25"
-                  "\n\t[ 13 ] - Activity_13  \t[ 0 ] - Terminate "
+                "\n\t[ 2 ] - Activity_2  \t[ 15 ] - Activity_15"
+                "\n\t[ 3 ] - Activity_3  \t[ 16 ] - Activity_16"
+                "\n\t[ 4 ] - Activity_4  \t[ 17 ] - Activity_17"
+                "\n\t[ 5 ] - Activity_5  \t[ 18 ] - Activity_18"
+                "\n\t[ 6 ] - Activity_6  \t[ 19 ] - Activity_19"
+                "\n\t[ 7 ] - Activity_7  \t[ 20 ] - Activity_20"
+                "\n\t[ 8 ] - Activity_8  \t[ 21 ] - Activity_21"
+                "\n\t[ 9 ] - Activity_9  \t[ 22 ] - Activity_22"
+                "\n\t[ 10 ] - Activity_10  \t[ 23 ] - Activity_23"
+                "\n\t[ 11 ] - Activity_11  \t[ 24 ] - Activity_24"
+                "\n\t[ 12 ] - Activity_12  \t[ 25 ] - Activity_25"
+                "\n\t[ 13 ] - Activity_13  \t[ 0 ] - Terminate "
                   
                   )
             
@@ -228,21 +228,21 @@ def Code_Chal():
         try:
             print(
                 
-                "\n\n\t| ======================================= |"
-                  "\n\t| ========= -Compiled Projects- ========= |"
-                  "\n\t| =============== ------- =============== |"
-                  "\n\t| ============= -Code_Menu- ============= |"
-                  "\n\t| ======================================= |"
+                "\t| ======================================= |"
+                "\n\t| ========= -Compiled Projects- ========= |"
+                "\n\t| =============== ------- =============== |"
+                "\n\t| ============= -Code_Menu- ============= |"
+                "\n\t| ======================================= |"
                 
                 "\n\n\t[ 1 ] - Code_Challenge_1  \t[ 10 ] - Code_Challenge_10"
-                  "\n\t[ 2 ] - Code_Challenge_2  \t[ 11 ] - Code_Challenge_11"
-                  "\n\t[ 3 ] - Code_Challenge_3  \t[ 12 ] - Code_Challenge_12"
-                  "\n\t[ 4 ] - Code_Challenge_4  \t[ 13 ] - Code_Challenge_13"
-                  "\n\t[ 5 ] - Code_Challenge_5  \t[ 14 ] - Code_Challenge_14"
-                  "\n\t[ 6 ] - Code_Challenge_6  \t[ 15 ] - Code_Challenge_15"
-                  "\n\t[ 7 ] - Code_Challenge_7  \t[ 16 ] - Code_Challenge_16"
-                  "\n\t[ 8 ] - Code_Challenge_8  \t[ 0 ] - Terminate"
-                  "\n\t[ 9 ] - Code_Challenge_9"
+                "\n\t[ 2 ] - Code_Challenge_2  \t[ 11 ] - Code_Challenge_11"
+                "\n\t[ 3 ] - Code_Challenge_3  \t[ 12 ] - Code_Challenge_12"
+                "\n\t[ 4 ] - Code_Challenge_4  \t[ 13 ] - Code_Challenge_13"
+                "\n\t[ 5 ] - Code_Challenge_5  \t[ 14 ] - Code_Challenge_14"
+                "\n\t[ 6 ] - Code_Challenge_6  \t[ 15 ] - Code_Challenge_15"
+                "\n\t[ 7 ] - Code_Challenge_7  \t[ 16 ] - Code_Challenge_16"
+                "\n\t[ 8 ] - Code_Challenge_8  \t[ 0 ] - Terminate"
+                "\n\t[ 9 ] - Code_Challenge_9"
                   
                   )
             
@@ -335,11 +335,11 @@ def Fundamentals():
         try:
             print(
                 
-                "\n\n\t| ======================================= |"
-                  "\n\t| ========= -Compiled Projects- ========= |"
-                  "\n\t| =============== ------- =============== |"
-                  "\n\t| ========= -Fundamentals_Menu- ========= |"
-                  "\n\t| ======================================= |"
+                "\t| ======================================= |"
+                "\n\t| ========= -Compiled Projects- ========= |"
+                "\n\t| =============== ------- =============== |"
+                "\n\t| ========= -Fundamentals_Menu- ========= |"
+                "\n\t| ======================================= |"
                 
                 "\n\n\t[ 1 ] - Print_Statements     \t[ 5 ] - Loops"
                   "\n\t[ 2 ] - Variables            \t[ 6 ] - List"
@@ -365,6 +365,9 @@ def Fundamentals():
             elif num == 5:
                 Clear()
                 Loops()
+            elif num == 6:
+                Clear()
+                List()
 
             elif num == 0:
                 Clear()
@@ -892,6 +895,101 @@ def Loops():
                 print("\n\t[Error. Enter A Real Number.]"
                     "\n")
                 continue
+
+def List():
+    while True:
+            try:
+                print(
+
+                    "\n\n\tWelcome To List In Python"
+
+                    "\n\n\t\tList Menu"
+
+                    "\n\n\t[ 1 ] - Definition"
+                    "\n\t[ 2 ] - Key Components"
+                    "\n\t[ 0 ] - Terminate"
+
+                )
+
+                num = int(input("\n\n\tChoose A Number Of Your Choices: "))
+
+                if num == 1:
+                    print(
+
+                        "\n\n\t\t\t\tLIST DEFINITION"
+
+                        "\n\n\tA list is a collection of items in a specific order, and it is one of Python's "
+                        "\n\tmost versatile and commonly used data structures. Lists are mutable, meaning "
+                        "\n\ttheir content can be changed after creation."
+                        "\n\n\tLists are also a type of built-in data structure in Python (along with tuples, "
+                        "\n\tsets and dictionaries), which is a specified way of storing and formatting data."
+
+                    )
+                
+                elif num == 2:
+                    
+                    print(
+
+                        "\n\n\t\tKEY COMPONENTS"
+
+                        "\n\n\n\tCreating a List:"
+                        "\n\n\tnumbers = [1, 2, 3, 4, 5]"
+                        "\n\tfruits = ['apple', 'banana', 'cherry']"
+                        "\n\tmixed = [1, 'apple', 3.14, True]"
+                        "\n\tprint(numbers) \t\t\t\t\t# Output: [1, 2, 3, 4, 5]"
+
+                        "\n\n\n\tAccessing List Elements:"
+                        "\n\n\tfruits = ['apple', 'banana', 'cherry']"
+                        "\n\tprint(fruits[2]) \t\t\t\t# Output: cherry"
+
+                        "\n\n\n\tModifying a List:"
+                        "\n\n\tmixed = [1, 'apple', 3.14, True]"
+                        "\n\tmixed[1] = 'pineapple'"
+                        "\n\tprint(mixed) \t\t\t\t\t# Output: [1, 'pineapple', 3.14, True]"
+
+                        "\n\n\tmixed.append('orange') \t\t\t\t# Output: [1, 'pineapple', 3.14, True, 'orange']"
+                        "\n\tmixed.insert(1, 'men') \t\t\t\t# Output: [1, 'men', 'pineapple', 3.14, True, 'orange']"
+
+                        "\n\n\tmixed.remove('men') \t\t\t\t# Removes 'men"
+                        "\n\tlast_item = mixed.pop() \t\t\t# Removes 'orange"
+                        "\n\tdel fruits[0]  \t\t\t\t\t# Removes 1"
+                        "\n\tprint(fruits) \t\t\t\t\t# Output: ['pineapple', 3.14, True]"
+
+                    )
+                
+                elif num == 0:
+                    Clear()
+                    choice = input("\n\t[The List Menu Has Stopped.]"
+                                "\n\n\tAre You Sure You Want To Continue: [Yes/No]: ").upper().strip()
+                    
+                    if choice == "NO":
+                        Clear()
+                        print("\n\t[The List Menu will now continue.]")
+                        continue
+                    elif choice == "YES":
+                        Clear()
+                        print("\n\n\t[The List Menu will now be terminated.]\n")
+                        break
+
+                elif num < 0:
+                    Clear()
+                    print("\n\t[Error. Please Enter A Positive Number.]")
+                    continue
+                elif num >= 3:
+                    Clear()
+                    print("\n\t[Error. Please Enter An Approriate Number.]")
+                    continue
+                else:
+                    Clear()
+                    print("\n\t[Error. Wrong Input.]")
+                    continue
+        
+            except ValueError:
+                Clear()
+                print("\n\t[Error. Enter A Real Number.]"
+                    "\n")
+                continue
+
 
 if __name__ == "__main__":
     Main_Menu()
