@@ -495,9 +495,9 @@ def Variables():
             try:
                 print(
 
-                    "\n\tWelcome To Printing In Python"
+                    "\n\tWelcome To Variables In Python"
 
-                    "\n\n\t\tPrint Menu"
+                    "\n\n\t\tVariable Menu"
 
                     "\n\n\t[ 1 ] - Definition"
                     "\n\t[ 2 ] - Key Components"
@@ -518,6 +518,7 @@ def Variables():
                         "\n\tYou can use variables to store any type of data, such as numbers, strings, lists, and objects."
 
                     )
+                
                 elif num == 2:
                     print(
 
@@ -534,14 +535,6 @@ def Variables():
                         "\n\tage = 19"
                         "\n\tprint(age)"
                         "\n\t# Output: 19"
-
-                        "\n\n\tage = 18 \t# Output: 18"
-                        "\n\tage += 2 \t# Output: 20"
-                        "\n\tage -= 5 \t# Output: 15"
-                        "\n\tage *= 5 \t# Output: 75"
-                        "\n\tage /= 5 \t# Output: 3.0"
-                        "\n\tprint(age)"
-                        "\n\t# Output: 3.0"
 
                     )
                 
@@ -578,7 +571,109 @@ def Variables():
                     "\n")
                 continue
 
-            
+def Variables():
+    while True:
+            try:
+                print(
+
+                    "\n\tWelcome To Operators In Python"
+
+                    "\n\n\t\tOperators Menu"
+
+                    "\n\n\t[ 1 ] - Definition"
+                    "\n\t[ 2 ] - Key Components"
+                    "\n\t[ 0 ] - Terminate"
+
+                )
+
+                num = int(input("\n\n\tChoose A Number Of Your Choices: "))
+
+                if num == 1:
+                    print(
+
+                        "\n\t\t\t\tOPERATORS DEFINITION"
+
+                        "\n\n\tOperators are symbols or keywords used to perform operations on variables and values."
+                        "\n\n\tThese operators allow for various functionalities, from basic arithmetic operations "
+                        "\n\tlike addition, subtraction, multiplication, and division to more complex comparisons and logical operations."
+                        "\n\tYou can use variables to store any type of data, such as numbers, strings, lists, and objects."
+                        "\n\n\tPython provides several types of operators, including arithmetic operators for mathematical calculations, "
+                        "\n\tcomparison operators to compare values, and assignment operators to assign values to variables."
+
+                    )
+                
+                elif num == 2:
+                    print(
+
+                        "\n\t\tKEY COMPONENTS"
+
+                        "\n\n\n\tArithmetic Operators"
+                        "\n\n\tAddition = 5 + 3 \t# Output: 8"
+                        "\n\tSubtraction = 5 - 3 \t# Output: 2"
+                        "\n\tMultiplication = 5 * 3 \t# Output: 15"
+                        "\n\tDivision = 5 / 2 \t# Output: 2.5"
+                        "\n\tModulus_Remainder = 5 % 2 \t# Output: 1"
+                        "\n\tExponentiation = 5 ** 2 \t# Output: 25"
+                        "\n\tFloor_Division = 5 // 2 \t# Output: 2"
+
+                        "\n\n\n\tAssignment Operators"
+                        "\n\n\tnum = 5 \t# Output: 5"
+                        "\n\tnum += 2 \t# Output: 7"
+                        "\n\tnum -= 4 \t# Output: 3"
+                        "\n\tnum *= 10 \t# Output: 30"
+                        "\n\tnum /= 5 \t# Output: 6.0"
+                        "\n\tnum %= 6 \t# Output: 0"
+                        "\n\tprint(num)"
+                        "\n\t# Output: 0"
+
+                        "\n\n\n\tComparison Operators"
+                        "\n\n\tEqual = 5 == 5 \t# Output: True"
+                        "\n\tNot_Equal = 5 != 3 \t# Output: True"
+                        "\n\tGreater = 5 > 3 \t# Output: True"
+                        "\n\tLesser = 5 < 2 \t# Output: False"
+                        "\n\tGreater_or_Equal = 5 >= 5 \t# Output: True"
+                        "\n\tLesser_or_Equal = 5 <= 5 \t# Output: False"
+
+                        "\n\n\n\tLogical  Operators"
+                        "\n\n\tAnd = True and False \t# Output: False"
+                        "\n\tOr = True or False \t# Output: True"
+                        "\n\tNot = not False \t# Output: True"
+
+                    )
+
+                elif num == 0:
+                    Clear()
+                    choice = input("\n\t[The Operators Menu Has Stopped.]"
+                                "\n\n\tAre You Sure You Want To Continue: [Yes/No]: ").upper().strip()
+                    
+                    if choice == "NO":
+                        Clear()
+                        print("\n\t[The Operators Menu will now continue.]")
+                        continue
+                    elif choice == "YES":
+                        Clear()
+                        print("\n\n\t[The Operators Menu will now be terminated.]\n")
+                        break
+
+                elif num < 0:
+                    Clear()
+                    print("\n\t[Error. Please Enter A Positive Number.]")
+                    continue
+                elif num >= 3:
+                    Clear()
+                    print("\n\t[Error. Please Enter An Approriate Number.]")
+                    continue
+                else:
+                    Clear()
+                    print("\n\t[Error. Wrong Input.]")
+                    continue
+        
+            except ValueError:
+                Clear()
+                print("\n\t[Error. Enter A Real Number.]"
+                    "\n")
+                continue
+
 if __name__ == "__main__":
     Main_Menu()
 
