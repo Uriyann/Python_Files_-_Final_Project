@@ -571,7 +571,7 @@ def Variables():
                     "\n")
                 continue
 
-def Variables():
+def Operators():
     while True:
             try:
                 print(
