@@ -4,7 +4,7 @@ def Act20():
     while isContinue == True:
         ask = input("Would you like to add another triangle [Yes / No]: ").strip().upper()
 
-        if ask == "no":
+        if ask == "NO":
             print("PROGRAM TERMINATED")
             break
             isContinue = False
