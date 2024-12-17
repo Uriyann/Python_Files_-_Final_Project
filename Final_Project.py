@@ -34,9 +34,9 @@ def Main_Menu():
                 "\n\t| ============= -Main Menu- ============= |"
                 "\n\t| ======================================= |"
                 
-                "\n\n\t[ 1 ] - Activity_Project: "
-                "\n\t[ 2 ] - Code_Challenges_Project: "
-                "\n\t[ 3 ] - Python Fundamentals: "
+                "\n\n\t[ 1 ] - Python_Fundamentals: "
+                "\n\t[ 2 ] - Activity_Project: "
+                "\n\t[ 3 ] - Code_Challenges_Project: "
                 "\n\t[ 0 ] - Terminate "
 
                   )
@@ -45,13 +45,13 @@ def Main_Menu():
 
             if num == 1:
                 Clear()
-                Activities()
+                Fundamentals()
             elif num == 2:
                 Clear()
-                Code_Chal()
+                Activities()
             elif num == 3:
                 Clear()
-                Fundamentals()
+                Code_Chal()
 
 
             elif num == 0:
