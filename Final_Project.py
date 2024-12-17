@@ -433,6 +433,7 @@ def Print():
                     "\n\n\tTo use the print function, you simply type print() followed by the value(s) that you"
                     "\n\twant to print. "
                 )
+
             elif num == 2:
                 print(
 
@@ -1097,7 +1098,4 @@ def Functions():
                     "\n")
                 continue
 
-if __name__ == "__main__":
-    Main_Menu()
-
-"""Unfinished"""
+Main_Menu()
