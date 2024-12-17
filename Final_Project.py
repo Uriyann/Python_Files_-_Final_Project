@@ -28,7 +28,7 @@ def Main_Menu():
         try:
             print(
                 
-                "\t| ======================================= |"
+                "\n\n\t| ======================================= |"
                 "\n\t| ========= -Compiled Projects- ========= |"
                 "\n\t| =============== ------- =============== |"
                 "\n\t| ============= -Main Menu- ============= |"
@@ -91,7 +91,7 @@ def Activities():
         try:
             print(
                 
-                "\t| ======================================= |"
+                "\n\n\t| ======================================= |"
                 "\n\t| ========= -Compiled Projects- ========= |"
                 "\n\t| =============== ------- =============== |"
                 "\n\t| =========== -Activity_Menu- =========== |"
@@ -228,7 +228,7 @@ def Code_Chal():
         try:
             print(
                 
-                "\t| ======================================= |"
+                "\n\n\t| ======================================= |"
                 "\n\t| ========= -Compiled Projects- ========= |"
                 "\n\t| =============== ------- =============== |"
                 "\n\t| ============= -Code_Menu- ============= |"
@@ -335,7 +335,7 @@ def Fundamentals():
         try:
             print(
                 
-                "\t| ======================================= |"
+                "\n\n\t| ======================================= |"
                 "\n\t| ========= -Compiled Projects- ========= |"
                 "\n\t| =============== ------- =============== |"
                 "\n\t| ========= -Fundamentals_Menu- ========= |"
@@ -368,6 +368,9 @@ def Fundamentals():
             elif num == 6:
                 Clear()
                 List()
+            elif num == 7:
+                Clear()
+                Functions()
 
             elif num == 0:
                 Clear()
@@ -616,7 +619,7 @@ def Operators():
 
                         "\n\n\t\tKEY COMPONENTS"
 
-                        "\n\n\n\tArithmetic Operators"
+                        "\n\n\n\tArithmetic Operators:"
                         "\n\n\tAddition = 5 + 3 \t\t# Output: 8"
                         "\n\tSubtraction = 5 - 3 \t\t# Output: 2"
                         "\n\tMultiplication = 5 * 3 \t\t# Output: 15"
@@ -625,7 +628,7 @@ def Operators():
                         "\n\tExponentiation = 5 ** 2 \t# Output: 25"
                         "\n\tFloor_Division = 5 // 2 \t# Output: 2"
 
-                        "\n\n\n\tAssignment Operators"
+                        "\n\n\n\tAssignment Operators:"
                         "\n\n\tnum = 5 \t\t\t# Output: 5"
                         "\n\tnum += 2 \t\t\t# Output: 7"
                         "\n\tnum -= 4 \t\t\t# Output: 3"
@@ -634,7 +637,7 @@ def Operators():
                         "\n\tnum %= 6 \t\t\t# Output: 0"
                         "\n\tprint(num) \t\t\t# Output: 0"
 
-                        "\n\n\n\tComparison Operators"
+                        "\n\n\n\tComparison Operators:"
                         "\n\n\tEqual = 5 == 5 \t\t\t# Output: True"
                         "\n\tNot_Equal = 5 != 3 \t\t# Output: True"
                         "\n\tGreater = 5 > 3 \t\t# Output: True"
@@ -642,7 +645,7 @@ def Operators():
                         "\n\tGreater_or_Equal = 5 >= 5 \t# Output: True"
                         "\n\tLesser_or_Equal = 5 <= 5 \t# Output: False"
 
-                        "\n\n\n\tLogical  Operators"
+                        "\n\n\n\tLogical  Operators:"
                         "\n\n\tAnd = True and False \t\t# Output: False"
                         "\n\tOr = True or False \t\t# Output: True"
                         "\n\tNot = not False \t\t# Output: True"
@@ -720,24 +723,24 @@ def Conditionals():
 
                         "\n\n\t\tKEY COMPONENTS"
 
-                        "\n\n\n\tBasic Syntax"
+                        "\n\n\n\tBasic Syntax:"
                         "\n\n\tif condition: \n\t\t# Code used to execute if the condition is True"
                         "\n\n\telif another_condition: \n\t\t# Code used to execute if the first condition is False, but another_condition is True"
                         "\n\n\telse: \n\t\t# Code to execute if all conditions are False"
 
-                        "\n\n\n\tif Statement"
+                        "\n\n\n\tif Statement:"
                         "\n\n\tage = 18"
                         "\n\tif age >= 18:"
                         "\n\t\tprint('You are an adult.') \n\t\t# Output: You are an adult."
 
-                        "\n\n\n\tif_else Statement"
+                        "\n\n\n\tif_else Statement:"
                         "\n\n\tage = 15"
                         "\n\tif age >= 18:"
                         "\n\t\tprint('You are an adult.')"
                         "\n\telse:"
                         "\n\t\tprint('You are a minor.') \n\t\t# Output: You are a minor."
 
-                        "\n\n\n\tif_elif_else Statement"
+                        "\n\n\n\tif_elif_else Statement:"
                         "\n\n\tage = 15"
                         "\n\n\tif age >= 18:"
                         "\n\t\tprint('You are an adult.')"
@@ -747,7 +750,7 @@ def Conditionals():
                         "\n\t\tprint('You are a minor.')"
                         
 
-                        "\n\n\n\tNested Conditionals"
+                        "\n\n\n\tNested Conditionals:"
                         "\n\n\tage = 18"
                         "\n\tif age >= 18:"
                         "\n\t\tif age <= 30:"
@@ -990,6 +993,109 @@ def List():
                     "\n")
                 continue
 
+def Functions():
+    while True:
+            try:
+                print(
+
+                    "\n\n\tWelcome To Functions In Python"
+
+                    "\n\n\t\tFunction Menu"
+
+                    "\n\n\t[ 1 ] - Definition"
+                    "\n\t[ 2 ] - Key Components"
+                    "\n\t[ 0 ] - Terminate"
+
+                )
+
+                num = int(input("\n\n\tChoose A Number Of Your Choices: "))
+
+                if num == 1:
+                    print(
+
+                        "\n\n\t\t\t\tFUNCTIONS DEFINITION"
+
+                        "\n\n\tA function is a reusable block of code that performs a specific task. "
+                        "\n\n\tIt allows you to organize code, avoid repetition, and make your programs easier to manage and debug."
+                        "\n\n\tA function is a block of organized, reusable code that is used to perform a single, related action."
+                        "\n\n\tFunction blocks begin with the keyword def followed by the function name and parentheses"
+
+                    )
+                
+                elif num == 2:
+                    
+                    print(
+
+                        "\n\n\t\tKEY COMPONENTS"
+
+                        "\n\n\n\tCreating Functions:"
+                        "\n\n\tdef function_name(parameters):"
+                        "\n\t\t\t\t\t\t# Code block (body of the function)"
+                        "\n\t\treturn result \t\t\t# Optional: returns a value"
+
+                        "\n\n\tdef greet():"
+                        "\n\n\t\tprint('Hello, world!')"
+                        "\n\tgreet() \t\t\t\t# Output: Hello, world!"
+
+                        "\n\n\n\tParameters and Arguments:"
+                        "\n\n\tdef greet(name):"
+                        "\n\t\tprint(f'Hello, {name}!')"
+                        "\n\tgreet('Alice') \t\t\t\t# Output: Hello, Alice!"
+
+                        "\n\n\n\tReturn Statement:"
+                        "\n\n\tdef add(a, b):"
+                        "\n\t\treturn a + b"
+                        "\n\tresult = add(3, 5)"
+                        "\n\tprint(result)  \t\t\t\t# Output: 8"
+
+                        "\n\n\n\tVariable Scope:"
+                        "\n\n\tx = 10  \t\t\t\t# Global variable"
+                        "\n\tdef show_value():"
+                        "\n\t\tx = 20  \t\t\t# Local variable"
+                        "\n\t\tprint(x)"
+                        "\n\tshow_value()  \t\t\t\t# Output: 20"
+                        "\n\tprint(x)      \t\t\t\t# Output: 10"
+
+                        "\n\n\n\tReturn Statement:"
+                        "\n\n\tdef add(a, b):"
+                        "\n\t\treturn a + b"
+                        "\n\tresult = add(3, 5)"
+                        "\n\tprint(result)  \t\t\t\t# Output: 8"
+
+                    )
+                
+                elif num == 0:
+                    Clear()
+                    choice = input("\n\t[The Function Menu Has Stopped.]"
+                                "\n\n\tAre You Sure You Want To Continue: [Yes/No]: ").upper().strip()
+                    
+                    if choice == "NO":
+                        Clear()
+                        print("\n\t[The Function Menu will now continue.]")
+                        continue
+                    elif choice == "YES":
+                        Clear()
+                        print("\n\n\t[The Function Menu will now be terminated.]\n")
+                        break
+
+                elif num < 0:
+                    Clear()
+                    print("\n\t[Error. Please Enter A Positive Number.]")
+                    continue
+                elif num >= 3:
+                    Clear()
+                    print("\n\t[Error. Please Enter An Approriate Number.]")
+                    continue
+                else:
+                    Clear()
+                    print("\n\t[Error. Wrong Input.]")
+                    continue
+        
+            except ValueError:
+                Clear()
+                print("\n\t[Error. Enter A Real Number.]"
+                    "\n")
+                continue
 
 if __name__ == "__main__":
     Main_Menu()
