@@ -362,6 +362,9 @@ def Fundamentals():
             elif num == 4:
                 Clear()
                 Conditionals()
+            elif num == 5:
+                Clear()
+                Loops()
 
             elif num == 0:
                 Clear()
@@ -401,7 +404,7 @@ def Print():
         try:
             print(
 
-                "\n\tWelcome To Printing In Python"
+                "\n\n\tWelcome To Printing In Python"
 
                 "\n\n\t\tPrint Menu"
 
@@ -416,7 +419,7 @@ def Print():
             if num == 1:
                 print(
 
-                    "\n\t\t\t\tPRINTING DEFINITION"
+                    "\n\n\t\t\t\tPRINTING DEFINITION"
 
                     "\n\n\tPrinting is the act of sending information (like strings, numbers, or variables)"
                     "\n\tto an output device, such as a console, where it can be displayed for the user to read."
@@ -427,41 +430,34 @@ def Print():
             elif num == 2:
                 print(
 
-                    "\n\t\tKEY COMPONENTS"
+                    "\n\n\t\tKEY COMPONENTS"
 
                     "\n\n\n\tBasic Usage:"
-                    "\n\n\n\tprint('Hello, World!')"
-                    "\n\t# Output: Hello, World!"
+                    "\n\n\tprint('Hello, World!') \t\t\t# Output: Hello, World!"
+
 
                     "\n\n\n\tPrinting Multiple Values:"
-                    "\n\n\n\tprint('Hello', 'World', 123)"
-                    "\n\t# Output: Hello World 123"
+                    "\n\n\tprint('Hello', 'World', 123) \t\t# Output: Hello World 123"
 
                     "\n\n\n\tCustom End:"
-                    "\n\n\n\tprint('Hello', end=' ')"
-                    "\n\tprint('World!')"
-                    "\n\t# Output: Hello World!"
+                    "\n\n\tprint('Hello', end=' ')"
+                    "\n\tprint('World!') \t\t\t# Output: Hello World!"
 
                     "\n\n\n\tPrinting Variables:"
-                    "\n\n\n\tname = 'Joshua!')"
-                    "\n\tprint('Hello', name)"
-                    "\n\t# Output: Hello Joshua!"
+                    "\n\n\tname = 'Joshua!')"
+                    "\n\tprint('Hello', name) \t\t\t# Output: Hello Joshua!"
 
                     "\n\n\n\tFormatted Strings:"
-                    "\n\n\n\tage = 21)"
-                    "\n\tprint(f'I am {age} years old.')"
-                    "\n\t# Output: I am 18 years old."
+                    "\n\n\tage = 21)"
+                    "\n\tprint(f'I am {age} years old.')\t\t# Output: I am 18 years old."
 
                     "\n\n\n\tEscape Sequence:"
-                    "\n\n\n\tprint('Hello\\nWorld')"
-                    "\n\t# Output: Hello"
-                    "\n\t          World"
+                    "\n\n\tprint('Hello\\nWorld') \t\t\t# Output: Hello"
+                    "\n\t\t\t\t\t\t\t  World"
 
-                    "\n\n\n\tprint('Hello\\tWorld')"
-                    "\n\t# Output: Hellow      World"
+                    "\n\n\tprint('Hello\\tWorld') \t\t\t# Output: Hellow      World"
 
-                    "\n\n\n\tprint('Helloo\\bWorld')"
-                    "\n\t# Output: Hello World"
+                    "\n\n\tprint('Helloo\\bWorld') \t\t\t# Output: Hello World"
                 )
 
             elif num == 0:
@@ -502,7 +498,7 @@ def Variables():
             try:
                 print(
 
-                    "\n\tWelcome To Variables In Python"
+                    "\n\n\tWelcome To Variables In Python"
 
                     "\n\n\t\tVariable Menu"
 
@@ -517,7 +513,7 @@ def Variables():
                 if num == 1:
                     print(
 
-                        "\n\t\t\t\tVARIABLE DEFINITION"
+                        "\n\n\t\t\t\tVARIABLE DEFINITION"
 
                         "\n\n\tA variable is a name that refers to a value stored in memory. "
                         "\n\tIt allows you to store, retrieve, and manipulate data."
@@ -530,19 +526,18 @@ def Variables():
                 elif num == 2:
                     print(
 
-                        "\n\t\tKEY COMPONENTS"
+                        "\n\n\t\tKEY COMPONENTS"
 
                         "\n\n\n\tCreating Variables"
                         "\n\n\tname = 'Joshua' \t# String"
-                        "\n\tage = 18 \t# Integer"
-                        "\n\theight = 5.9 \t# Float"
+                        "\n\tage = 18 \t\t# Integer"
+                        "\n\theight = 5.9 \t\t# Float"
                         "\n\tis_student = True \t# Boolean"
 
                         "\n\n\n\tChanging Values"
                         "\n\n\tage = 18"
                         "\n\tage = 19"
-                        "\n\tprint(age)"
-                        "\n\t# Output: 19"
+                        "\n\tprint(age) \t\t# Output: 19"
 
                     )
                 
@@ -584,7 +579,7 @@ def Operators():
             try:
                 print(
 
-                    "\n\tWelcome To Operators In Python"
+                    "\n\n\tWelcome To Operators In Python"
 
                     "\n\n\t\tOperators Menu"
 
@@ -599,7 +594,7 @@ def Operators():
                 if num == 1:
                     print(
 
-                        "\n\t\t\t\tOPERATORS DEFINITION"
+                        "\n\n\t\t\t\tOPERATORS DEFINITION"
 
                         "\n\n\tOperators are symbols or keywords used to perform operations on variables and values."
                         "\n\n\tThese operators allow for various functionalities, from basic arithmetic operations "
@@ -616,39 +611,38 @@ def Operators():
                 elif num == 2:
                     print(
 
-                        "\n\t\tKEY COMPONENTS"
+                        "\n\n\t\tKEY COMPONENTS"
 
                         "\n\n\n\tArithmetic Operators"
-                        "\n\n\tAddition = 5 + 3 \t# Output: 8"
-                        "\n\tSubtraction = 5 - 3 \t# Output: 2"
-                        "\n\tMultiplication = 5 * 3 \t# Output: 15"
-                        "\n\tDivision = 5 / 2 \t# Output: 2.5"
+                        "\n\n\tAddition = 5 + 3 \t\t# Output: 8"
+                        "\n\tSubtraction = 5 - 3 \t\t# Output: 2"
+                        "\n\tMultiplication = 5 * 3 \t\t# Output: 15"
+                        "\n\tDivision = 5 / 2 \t\t# Output: 2.5"
                         "\n\tModulus_Remainder = 5 % 2 \t# Output: 1"
                         "\n\tExponentiation = 5 ** 2 \t# Output: 25"
                         "\n\tFloor_Division = 5 // 2 \t# Output: 2"
 
                         "\n\n\n\tAssignment Operators"
-                        "\n\n\tnum = 5 \t# Output: 5"
-                        "\n\tnum += 2 \t# Output: 7"
-                        "\n\tnum -= 4 \t# Output: 3"
-                        "\n\tnum *= 10 \t# Output: 30"
-                        "\n\tnum /= 5 \t# Output: 6.0"
-                        "\n\tnum %= 6 \t# Output: 0"
-                        "\n\tprint(num)"
-                        "\n\t# Output: 0"
+                        "\n\n\tnum = 5 \t\t\t# Output: 5"
+                        "\n\tnum += 2 \t\t\t# Output: 7"
+                        "\n\tnum -= 4 \t\t\t# Output: 3"
+                        "\n\tnum *= 10 \t\t\t# Output: 30"
+                        "\n\tnum /= 5 \t\t\t# Output: 6.0"
+                        "\n\tnum %= 6 \t\t\t# Output: 0"
+                        "\n\tprint(num) \t\t\t# Output: 0"
 
                         "\n\n\n\tComparison Operators"
-                        "\n\n\tEqual = 5 == 5 \t# Output: True"
-                        "\n\tNot_Equal = 5 != 3 \t# Output: True"
-                        "\n\tGreater = 5 > 3 \t# Output: True"
-                        "\n\tLesser = 5 < 2 \t# Output: False"
+                        "\n\n\tEqual = 5 == 5 \t\t\t# Output: True"
+                        "\n\tNot_Equal = 5 != 3 \t\t# Output: True"
+                        "\n\tGreater = 5 > 3 \t\t# Output: True"
+                        "\n\tLesser = 5 < 2 \t\t\t# Output: False"
                         "\n\tGreater_or_Equal = 5 >= 5 \t# Output: True"
                         "\n\tLesser_or_Equal = 5 <= 5 \t# Output: False"
 
                         "\n\n\n\tLogical  Operators"
-                        "\n\n\tAnd = True and False \t# Output: False"
-                        "\n\tOr = True or False \t# Output: True"
-                        "\n\tNot = not False \t# Output: True"
+                        "\n\n\tAnd = True and False \t\t# Output: False"
+                        "\n\tOr = True or False \t\t# Output: True"
+                        "\n\tNot = not False \t\t# Output: True"
 
                     )
 
@@ -691,7 +685,7 @@ def Conditionals():
             try:
                 print(
 
-                    "\n\tWelcome To Conditionals In Python"
+                    "\n\n\tWelcome To Conditionals In Python"
 
                     "\n\n\t\tConditionals Menu"
 
@@ -706,14 +700,14 @@ def Conditionals():
                 if num == 1:
                     print(
 
-                        "\n\t\t\t\tCONDITIONALS DEFINITION"
+                        "\n\n\t\t\t\tCONDITIONALS DEFINITION"
 
                         "\n\n\tConditionals allow you to make decisions in your code based on whether a condition is "
                         "\n\tTrue or False. "
-                        "\n\tThey use if-else statements to control the flow of execution."
+                        "\n\n\tThey use if-else statements to control the flow of execution."
                         "\n\n\tThe condition can be any expression that evaluates to a Boolean value (True or False). "
-                        "\n\tIf the condition is True, the code block indented below the if statement will be executed. "
-                        "\n\tIf the condition is False, the code block will be skipped."
+                        "\n\n\tIf the condition is True, the code block indented below the if statement will be executed. "
+                        "\n\n\tIf the condition is False, the code block will be skipped."
 
                     )
                 
@@ -721,7 +715,7 @@ def Conditionals():
 
                      print(
 
-                        "\n\t\tKEY COMPONENTS"
+                        "\n\n\t\tKEY COMPONENTS"
 
                         "\n\n\n\tBasic Syntax"
                         "\n\n\tif condition: \n\t\t# Code used to execute if the condition is True"
@@ -731,21 +725,21 @@ def Conditionals():
                         "\n\n\n\tif Statement"
                         "\n\n\tage = 18"
                         "\n\tif age >= 18:"
-                        "\n\t\tprint('You are an adult.')  # Output: You are an adult."
+                        "\n\t\tprint('You are an adult.') \n\t\t# Output: You are an adult."
 
                         "\n\n\n\tif_else Statement"
                         "\n\n\tage = 15"
                         "\n\tif age >= 18:"
                         "\n\t\tprint('You are an adult.')"
                         "\n\telse:"
-                        "\n\t\tprint('You are a minor.')  # Output: You are a minor."
+                        "\n\t\tprint('You are a minor.') \n\t\t# Output: You are a minor."
 
                         "\n\n\n\tif_elif_else Statement"
                         "\n\n\tage = 15"
                         "\n\n\tif age >= 18:"
                         "\n\t\tprint('You are an adult.')"
                         "\n\tif age >= 50:"
-                        "\n\t\tprint('You are a senior.')# Output: You are a senior."
+                        "\n\t\tprint('You are a senior.')  \n\t\t# Output: You are a senior."
                         "\n\telse:"
                         "\n\t\tprint('You are a minor.')"
                         
@@ -754,7 +748,7 @@ def Conditionals():
                         "\n\n\tage = 18"
                         "\n\tif age >= 18:"
                         "\n\t\tif age <= 30:"
-                        "\n\t\t\tprint('You are a young adult.')  # Output: You are a young adult."
+                        "\n\t\t\tprint('You are a young adult.') \n\t\t\t# Output: You are a young adult."
 
                     )
                 
@@ -796,7 +790,7 @@ def Loops():
             try:
                 print(
 
-                    "\n\tWelcome To Loops In Python"
+                    "\n\n\tWelcome To Loops In Python"
 
                     "\n\n\t\tLoop Menu"
 
@@ -811,11 +805,11 @@ def Loops():
                 if num == 1:
                     print(
 
-                        "\n\t\t\t\tLOOPS DEFINITION"
+                        "\n\n\t\t\t\tLOOPS DEFINITION"
 
                         "\n\n\tLoops are used to execute a block of code repeatedly based on a condition or a "
                         "\n\tsequence of items."
-                        "\n\tPython provides two primary types of loops: for loops and while loops."
+                        "\n\n\tPython provides two primary types of loops: for loops and while loops."
                         "\n\n\tA for loop is used to iterate over a sequence (like a list, string, or range). "
                         "\n\tIt executes the block of code for each item in the sequence."
                         "\n\n\tA while loop repeats as long as the condition is True. It checks the condition "
@@ -827,39 +821,39 @@ def Loops():
 
                     print(
 
-                        "\n\t\tKEY COMPONENTS"
+                        "\n\n\t\tKEY COMPONENTS"
 
-                        "\n\n\n\tfor Loop"
-                        "\n\n\tfor i in range(5): \t# Iterates over the range 0 to 4"
+                        "\n\n\n\tfor Loop:"
+                        "\n\n\tfor i in range(5): \n\t# Iterates over the range 0 to 4"
                         "\n\t\tprint(i) \n\t\t# Output: 0 1 2 3 4"
-                        "\n\n\tfor i in range(2, 10, 2): \t# Start at 2, end before 10, step by 2"
+                        "\n\n\tfor i in range(2, 10, 2): \n\t# Start at 2, end before 10, step by 2"
                         "\n\t\tprint(i) \n\t\t# Output: 0 2 4 6 8"
-                        "\n\n\tfor i in range(10, 0, -1): \t# Start at 10, ending before 0"
+                        "\n\n\tfor i in range(10, 0, -1): \n\t# Start at 10, ending before 0"
                         "\n\t\tprint(i) \n\t\t# Output: 10 9 8 7 6 5 4 3 2 1"
 
-                        "\n\n\n\twhile Loop"
+                        "\n\n\n\twhile Loop:"
                         "\n\n\tcount = 0"
                         "\n\twhile count < 5:"
                         "\n\t\tprint(count) \n\t\t# Output: 0 1 2 3 4"
                         "\n\t\tcount += 1"
 
-                        "\n\n\n\tNested Loops"
+                        "\n\n\n\tNested Loops:"
                         "\n\n\tfor i in range(3):"
-                        "\n\n\t\tfor j in range(3):"
+                        "\n\t\tfor j in range(3):"
                         "\n\t\t\tprint(i * j) \n\t\t\t# Output: 1 2 3, 2 4 6, 3 6 9"
 
-                        "\n\n\n\tbreak and continue Statements"
+                        "\n\n\n\tbreak and continue Statements:"
                         "\n\n\tfor i in range(10):"
                         "\n\t\tif i == 5:"
-                        "\n\t\t\tbreak \t# Exit the loop when i equals 5"
+                        "\n\t\t\tbreak \n\t\t\t# Exit the loop when i equals 5"
                         "\n\t\tprint(i)  \n\t\t# Output: 0 1 2 3 4"
 
                         "\n\n\tfor i in range(5):"
                         "\n\t\tif i == 2:"
-                        "\n\t\t\tcontinue \t# Skip the iteration when i equals 2"
+                        "\n\t\t\tcontinue \n\t\t\t# Skip the iteration when i equals 2"
                         "\n\t\tprint(i)  \n\t\t# Output: 0 1 3 4"
 
-                        "\n\n\n\tInfinite Loops"
+                        "\n\n\n\tInfinite Loops:"
                         "\n\n\twhile True:"
                         "\n\t\tprint('This will run forever unless stopped.')"
                         "\n\t\t# You can add a break condition to exit the loop."
