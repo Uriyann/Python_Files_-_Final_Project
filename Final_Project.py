@@ -74,7 +74,7 @@ def Main_Menu():
                 continue
             elif num >= 5:
                 Clear()
-                print("\n\t[Error. Please Enter An Approriate Number.]")
+                print("\n\t[Error. Please Enter An Approriate Number Below.]")
                 continue
             else:
                 Clear()
@@ -211,7 +211,7 @@ def Activities():
                 continue
             elif num >= 5:
                 Clear()
-                print("\n\t[Error. Please Enter An Approriate Number.]")
+                print("\n\t[Error. Please Enter An Approriate Number Below.]")
                 continue
             else:
                 Clear()
@@ -317,7 +317,7 @@ def Code_Chal():
                 continue
             elif num >= 17:
                 Clear()
-                print("\n\t[Error. Please Enter An Approriate Number.]")
+                print("\n\t[Error. Please Enter An Approriate Number Below.]")
                 continue
             else:
                 Clear()
@@ -392,7 +392,7 @@ def Fundamentals():
                 continue
             elif num >= 13:
                 Clear()
-                print("\n\t[Error. Please Enter An Approriate Number.]")
+                print("\n\t[Error. Please Enter An Approriate Number Below.]")
                 continue
             else:
                 Clear()
@@ -423,6 +423,7 @@ def Print():
             num = int(input("\n\n\tChoose A Number Of Your Choices: "))
 
             if num == 1:
+                Clear()
                 print(
 
                     "\n\n\t\t\t\tPRINTING DEFINITION"
@@ -435,6 +436,7 @@ def Print():
                 )
 
             elif num == 2:
+                Clear()
                 print(
 
                     "\n\n\t\tKEY COMPONENTS"
@@ -487,7 +489,7 @@ def Print():
                 continue
             elif num >= 3:
                 Clear()
-                print("\n\t[Error. Please Enter An Approriate Number.]")
+                print("\n\t[Error. Please Enter An Approriate Number Below.]")
                 continue
             else:
                 Clear()
@@ -518,6 +520,7 @@ def Variables():
                 num = int(input("\n\n\tChoose A Number Of Your Choices: "))
 
                 if num == 1:
+                    Clear()
                     print(
 
                         "\n\n\t\t\t\tVARIABLE DEFINITION"
@@ -531,6 +534,7 @@ def Variables():
                     )
                 
                 elif num == 2:
+                    Clear()
                     print(
 
                         "\n\n\t\tKEY COMPONENTS"
@@ -568,7 +572,7 @@ def Variables():
                     continue
                 elif num >= 3:
                     Clear()
-                    print("\n\t[Error. Please Enter An Approriate Number.]")
+                    print("\n\t[Error. Please Enter An Approriate Number Below.]")
                     continue
                 else:
                     Clear()
@@ -599,6 +603,7 @@ def Operators():
                 num = int(input("\n\n\tChoose A Number Of Your Choices: "))
 
                 if num == 1:
+                    Clear()
                     print(
 
                         "\n\n\t\t\t\tOPERATORS DEFINITION"
@@ -616,6 +621,7 @@ def Operators():
                     )
                 
                 elif num == 2:
+                    Clear()
                     print(
 
                         "\n\n\t\tKEY COMPONENTS"
@@ -673,7 +679,7 @@ def Operators():
                     continue
                 elif num >= 3:
                     Clear()
-                    print("\n\t[Error. Please Enter An Approriate Number.]")
+                    print("\n\t[Error. Please Enter An Approriate Number Below.]")
                     continue
                 else:
                     Clear()
@@ -705,6 +711,7 @@ def Conditionals():
                 num = int(input("\n\n\tChoose A Number Of Your Choices: "))
 
                 if num == 1:
+                    Clear()
                     print(
 
                         "\n\n\t\t\t\tCONDITIONALS DEFINITION"
@@ -719,43 +726,43 @@ def Conditionals():
                     )
                 
                 elif num == 2:
+                    Clear()
+                    print(
 
-                     print(
+                    "\n\n\t\tKEY COMPONENTS"
 
-                        "\n\n\t\tKEY COMPONENTS"
+                    "\n\n\n\tBasic Syntax:"
+                    "\n\n\tif condition: \n\t\t# Code used to execute if the condition is True"
+                    "\n\n\telif another_condition: \n\t\t# Code used to execute if the first condition is False, but another_condition is True"
+                    "\n\n\telse: \n\t\t# Code to execute if all conditions are False"
 
-                        "\n\n\n\tBasic Syntax:"
-                        "\n\n\tif condition: \n\t\t# Code used to execute if the condition is True"
-                        "\n\n\telif another_condition: \n\t\t# Code used to execute if the first condition is False, but another_condition is True"
-                        "\n\n\telse: \n\t\t# Code to execute if all conditions are False"
+                    "\n\n\n\tif Statement:"
+                    "\n\n\tage = 18"
+                    "\n\tif age >= 18:"
+                    "\n\t\tprint('You are an adult.') \n\t\t# Output: You are an adult."
 
-                        "\n\n\n\tif Statement:"
-                        "\n\n\tage = 18"
-                        "\n\tif age >= 18:"
-                        "\n\t\tprint('You are an adult.') \n\t\t# Output: You are an adult."
+                    "\n\n\n\tif_else Statement:"
+                    "\n\n\tage = 15"
+                    "\n\tif age >= 18:"
+                    "\n\t\tprint('You are an adult.')"
+                    "\n\telse:"
+                    "\n\t\tprint('You are a minor.') \n\t\t# Output: You are a minor."
 
-                        "\n\n\n\tif_else Statement:"
-                        "\n\n\tage = 15"
-                        "\n\tif age >= 18:"
-                        "\n\t\tprint('You are an adult.')"
-                        "\n\telse:"
-                        "\n\t\tprint('You are a minor.') \n\t\t# Output: You are a minor."
+                    "\n\n\n\tif_elif_else Statement:"
+                    "\n\n\tage = 15"
+                    "\n\n\tif age >= 18:"
+                    "\n\t\tprint('You are an adult.')"
+                    "\n\tif age >= 50:"
+                    "\n\t\tprint('You are a senior.')  \n\t\t# Output: You are a senior."
+                    "\n\telse:"
+                    "\n\t\tprint('You are a minor.')"
+                    
 
-                        "\n\n\n\tif_elif_else Statement:"
-                        "\n\n\tage = 15"
-                        "\n\n\tif age >= 18:"
-                        "\n\t\tprint('You are an adult.')"
-                        "\n\tif age >= 50:"
-                        "\n\t\tprint('You are a senior.')  \n\t\t# Output: You are a senior."
-                        "\n\telse:"
-                        "\n\t\tprint('You are a minor.')"
-                        
-
-                        "\n\n\n\tNested Conditionals:"
-                        "\n\n\tage = 18"
-                        "\n\tif age >= 18:"
-                        "\n\t\tif age <= 30:"
-                        "\n\t\t\tprint('You are a young adult.') \n\t\t\t# Output: You are a young adult."
+                    "\n\n\n\tNested Conditionals:"
+                    "\n\n\tage = 18"
+                    "\n\tif age >= 18:"
+                    "\n\t\tif age <= 30:"
+                    "\n\t\t\tprint('You are a young adult.') \n\t\t\t# Output: You are a young adult."
 
                     )
                 
@@ -779,7 +786,7 @@ def Conditionals():
                     continue
                 elif num >= 3:
                     Clear()
-                    print("\n\t[Error. Please Enter An Approriate Number.]")
+                    print("\n\t[Error. Please Enter An Approriate Number Below.]")
                     continue
                 else:
                     Clear()
@@ -810,6 +817,7 @@ def Loops():
                 num = int(input("\n\n\tChoose A Number Of Your Choices: "))
 
                 if num == 1:
+                    Clear()
                     print(
 
                         "\n\n\t\t\t\tLOOPS DEFINITION"
@@ -825,7 +833,7 @@ def Loops():
                     )
                 
                 elif num == 2:
-
+                    Clear()
                     print(
 
                         "\n\n\t\tKEY COMPONENTS"
@@ -887,7 +895,7 @@ def Loops():
                     continue
                 elif num >= 3:
                     Clear()
-                    print("\n\t[Error. Please Enter An Approriate Number.]")
+                    print("\n\t[Error. Please Enter An Approriate Number Below.]")
                     continue
                 else:
                     Clear()
@@ -918,6 +926,7 @@ def List():
                 num = int(input("\n\n\tChoose A Number Of Your Choices: "))
 
                 if num == 1:
+                    Clear()
                     print(
 
                         "\n\n\t\t\t\tLIST DEFINITION"
@@ -931,7 +940,7 @@ def List():
                     )
                 
                 elif num == 2:
-                    
+                    Clear()
                     print(
 
                         "\n\n\t\tKEY COMPONENTS"
@@ -981,7 +990,7 @@ def List():
                     continue
                 elif num >= 3:
                     Clear()
-                    print("\n\t[Error. Please Enter An Approriate Number.]")
+                    print("\n\t[Error. Please Enter An Approriate Number Below.]")
                     continue
                 else:
                     Clear()
@@ -1012,6 +1021,7 @@ def Functions():
                 num = int(input("\n\n\tChoose A Number Of Your Choices: "))
 
                 if num == 1:
+                    Clear()
                     print(
 
                         "\n\n\t\t\t\tFUNCTIONS DEFINITION"
@@ -1024,7 +1034,7 @@ def Functions():
                     )
                 
                 elif num == 2:
-                    
+                    Clear()
                     print(
 
                         "\n\n\t\tKEY COMPONENTS"
@@ -1085,7 +1095,7 @@ def Functions():
                     continue
                 elif num >= 3:
                     Clear()
-                    print("\n\t[Error. Please Enter An Approriate Number.]")
+                    print("\n\t[Error. Please Enter An Approriate Number Below.]")
                     continue
                 else:
                     Clear()

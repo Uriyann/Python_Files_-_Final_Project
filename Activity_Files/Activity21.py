@@ -11,8 +11,8 @@ def Act21():
     while True:
         ask = input("Please provide a name: ").upper().strip()
         if ask =="STOP":
-                Hallo(ask)
+            break
 
         else: 
-            tuloy = False
+             Hallo(ask)
 
