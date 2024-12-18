@@ -692,7 +692,6 @@ def Operators():
                     "\n")
                 continue
 
-
 def Conditionals():
     while True:
             try:
