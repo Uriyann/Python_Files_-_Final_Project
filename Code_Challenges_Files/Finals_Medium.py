@@ -20,6 +20,8 @@ toppings = {
     "None": 0
 }
 
+price = 0
+
 while True:
     pizza = input("Would you like to purchase/buy a pizza: ").strip().upper()
     
@@ -32,15 +34,22 @@ while True:
         topps_pizz = input(f"Choose: {toppings}: ").strip()
 
         calc = flavors[flavor_pizz] + sizes[sizes_pizz] + toppings[topps_pizz]
+        price += calc
 
         print("Order Summary: "
               f"\nFlavor: {flavor_pizz}"
               f"\nSize: {sizes_pizz}"
               f"\nToppings: {topps_pizz}"
               
-              f"\n\nPrice: {calc}")
+              f"\n\nPrice: {price}")
         
-        break
+        pizza1 = input("Would you like to purchase/buy another pizza: ").strip().upper()
+
+        if pizza1 == "YES":
+            pizza
+
+        elif pizza1 == "NO":
+            break
         
 
     else:
