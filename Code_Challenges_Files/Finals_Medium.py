@@ -37,7 +37,7 @@ while True:
         price += calc
 
         print("\n\nOrder Summary: "
-              f"\nFlavor: {flavor_pizz}"
+              f"\n\nFlavor: {flavor_pizz}"
               f"\nSize: {sizes_pizz}"
               f"\nToppings: {topps_pizz}"
               
