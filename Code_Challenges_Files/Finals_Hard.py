@@ -11,7 +11,7 @@ remaining_loan = amount
 print("\n\n")
 
 for headers in range(1, 2):
-    print("      Month", end= "\t|")
+    print("\t\b\bMonth", end= "\t|")
 
     for monthly_pay_headers in range(1):
         print("\tMonthly Payment\t", end= "\t|")
