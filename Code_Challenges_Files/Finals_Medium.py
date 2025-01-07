@@ -1,23 +1,23 @@
 flavors = {
-    "Pepperoni": 12,
-    "Hawaiian": 10,
-    "Bolognese": 5,
-    "Overload": 20
+    "PEPPERONI": 12,
+    "HAWAIIAN": 10,
+    "BOLOGNESE": 5,
+    "OVERLOAD": 20
 }
 
 sizes = {
-    "Small": 5,
-    "Medium": 7,
-    "Large": 10,
-    "Extra Large": 15
+    "SMALL": 5,
+    "MEDIUM": 7,
+    "LARGE": 10,
+    "EXTRA LARGE": 15
 }
 
 toppings = {
-    "Olives": 2,
-    "Mushrooms": 2,
-    "Extra Cheese": 2,
-    "Bacon": 2,
-    "None": 0
+    "OLIVES": 2,
+    "MUSHROOMS": 2,
+    "EXTRA CHEESE": 2,
+    "BACON": 2,
+    "NONE": 0
 }
 
 price = 0
@@ -27,6 +27,7 @@ while True:
     
     if pizza == "NO":
         print("\nThank you for using the machine")
+        print(f"\nThe total price of the order is: ${price}")
         break
 
     elif pizza == "YES":
@@ -34,7 +35,7 @@ while True:
         sizes_pizz = input(f"Choose: {sizes}: ").strip()
         topps_pizz = input(f"Choose: {toppings}: ").strip()
 
-        calc = flavors[flavor_pizz] + sizes[sizes_pizz] + toppings[topps_pizz]
+        calc = flavors[flavor_pizz.upper()] + sizes[sizes_pizz.upper()] + toppings[topps_pizz.upper()]
         price += calc
 
         print("\n\nOrder Summary: "
